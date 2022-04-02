@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+  box-sizing : border-box;
+}
+
+:root {
+  font-size : 14px;
+
+  @include media-xl {
+    font-size : 16px;
+  }
+}
+
+html {
+  scroll-behavior : smooth;
+  margin          : 0;
+  padding         : 0;
+}
+
+body {
+  min-width      : 320px;
+  min-height     : 100vh;
+  margin         : 0;
+  padding        : 0;
+  display        : flex;
+  flex-direction : column;
+  font-size      : 1rem;
+  line-height    : 1.4rem;
+  overflow-x     : hidden;
+  background     : #ffffff;
+}
+
+
+img {
+  max-inline-size : 100%;
+  block-size      : auto;
+  vertical-align  : middle;
+}
+
+a {
+  font : inherit;
+
+  &:focus {
+    outline : none;
+  }
+
+  @include hover {
+    &:hover {
+      text-decoration : none;
+    }
+  }
+}
+
+.container {
+  width  : 90%;
+  margin : 0 auto;
+  @include media-custom(1280px) {
+    width: 93%;
+  }
+}
+
+.visually-hidden {
+  position    : absolute;
+  width       : 1px;
+  height      : 1px;
+  margin      : -1px;
+  border      : 0;
+  padding     : 0;
+  white-space : nowrap;
+  clip-path   : inset(100%);
+  clip        : rect(0 0 0 0);
+  overflow    : hidden;
+}
+
