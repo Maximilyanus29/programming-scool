@@ -1,0 +1,72 @@
+header{
+	margin: 20px 10% 0 10%;
+	height: 54px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.logo{
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 20px;
+		line-height: 27px;
+		text-transform: uppercase;
+		color: #252B42;
+	}
+	nav{
+		display: flex;
+		.menu-item{
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+			/* identical to box height */
+
+			text-align: center;
+
+			color: #252B42;
+			margin: 5px;
+			ul{
+				display: none;
+			}
+		}
+	}
+	.button-block{
+		height: 100%;
+		display: flex;
+		align-items: center;
+		.phone-number{
+			margin-right: 33px;
+			.icon{
+				margin-right: 12px;
+			}
+			font-family: 'Manrope';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 19px;
+			text-align: center;
+			
+			color: #252B42;
+		}
+		button{
+			width: 137px;
+			height: 100%;
+		}
+		button.sign-up{
+			background: #4F46BA;
+			border-radius: 5px;
+			border: 0;
+
+			font-family: 'Inter';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 17px;
+			/* identical to box height */
+			text-align: center;
+			color: #FFFFFF;
+		}
+	}
+}

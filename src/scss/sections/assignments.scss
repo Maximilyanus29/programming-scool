@@ -1,0 +1,133 @@
+section.assignments{
+    z-index: 3;
+    margin-top: 200px;
+    position: relative;
+    h2{
+        margin: 0 auto;
+        height: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 50px;
+        /* identical to box height, or 78% */
+
+        letter-spacing: 0.2px;
+
+        color: #252B42;
+    }
+    p{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+        /* identical to box height, or 145% */
+        
+        letter-spacing: 0.01em;
+        
+        color: #252B42;
+    }
+    .card-wrap{
+        margin: 0 auto;
+        width: 88%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        // justify-content: center;
+    }
+
+    // Всякие круглишки
+    .ellipse1{
+        position: absolute;
+        width: 190px;
+        height: 189px;
+        right: 15px;
+        top: 45px;
+        background: #FFC223;
+        border-radius: 100%;
+    }
+    .ellipse2{
+        /* Ellipse 6 */
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 26px;
+        top: 541px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+    .ellipse3{
+        /* Ellipse 6 */
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 65px;
+        top: 541px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+
+    .ellipse4{
+        /* Ellipse 6 */
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        right: 42px;
+        top: 845px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+
+    .ellipse5{
+        /* Ellipse 6 */
+        position: absolute;
+        z-index: 2;
+        width: 37px;
+        height: 37px;
+        right: 80px;
+        top: 889px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+
+    .ellipse6{
+        /* Ellipse 6 */
+        position: absolute;
+
+        width: 48px;
+        height: 48px;
+        left: 26px;
+        top: 1591px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+
+    .ellipse7{
+        /* Ellipse 6 */
+        position: absolute;
+
+        width: 190px;
+        height: 189px;
+        left: 25px;
+        top: 1715px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+
+    
+    .ellipse8{
+        /* Ellipse 6 */
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        right: 42px;
+        top: 1591px;
+        border-radius: 100%;
+        background: #FFC223;
+    }
+    
+
+  
+}

@@ -1,0 +1,51 @@
+section.main{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+    /* Heading */
+    .text{
+        h1{
+            // margin-bottom: 0;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 66px;
+            line-height: 73px;
+            /* or 111% */
+            color: #252B42;
+        }
+        p{
+            font-family: 'Manrope';
+            margin-top: 16px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 29px;
+            /* or 145% */
+    
+            letter-spacing: 0.01em;
+    
+            color: #252B42;
+        }
+        button{
+            border: none;
+            width: 172px;
+            height: 48px;
+            background: #4F46BA;
+            border-radius: 5px;
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+
+            color: #FFFFFF;
+            img{
+                margin-left: 35px;
+            }
+        }
+    }
+ 
+}

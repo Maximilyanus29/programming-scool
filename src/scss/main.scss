@@ -3,137 +3,15 @@
 @import "vendor";
 @import "vars";
 @import "settings";
-
 // components
 
 // blocks
-.container{
-	width: 80%;
-	margin: 0 auto;
-}
+@import "components/_body.scss";
+@import "components/_header.scss";
+@import "components/_card.scss";
 
-body{
-	font-family: 'Manrope', sans-serif;
-	font-family: 'Roboto', sans-serif;
-
-	position: relative;
-	width: 100%;
-
-	background: linear-gradient(135.91deg, #6EADFF 9.65%, #B98CF9 74.17%);
-
-	.background-gradient{
-		/* Ellipse 17 */
-		position: absolute;
-		width: 2665px;
-		height: 2647px;
-
-		background: rgba(193, 248, 255, 0.8);
-		filter: blur(972.1px);
-		transform: rotate(-90deg);
-	}
-	.background-gradient2{
-		/* Ellipse 16 */
-		position: absolute;
-		width: 2916px;
-		height: 3030px;
-		left: -1478px;
-		top: 7524px;
-	
-		background: rgba(123, 97, 255, 0.7);
-		filter: blur(972.1px);
-		transform: rotate(-90deg);
-	}
-}
-
-.wrapper{
-	/* Rectangle 21 */
-	z-index: 1;
-	width: 90%;
-	margin: 20px 5% 0 5%;
-	height: 150px;
-	background: #FFFFFF;
-	header{
-
-		margin-top: 20px;
-		height: 54px;
-
-
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-
-		.logo{
-			font-family: 'Manrope';
-			font-style: normal;
-			font-weight: 800;
-			font-size: 20px;
-			line-height: 27px;
-			text-transform: uppercase;
-			color: #252B42;
-		}
-
-		nav{
-			display: flex;
-			.menu-item{
-				font-family: 'Inter';
-				font-style: normal;
-				font-weight: 500;
-				font-size: 14px;
-				line-height: 17px;
-				/* identical to box height */
-
-				text-align: center;
-
-				color: #252B42;
-				margin: 5px;
-				ul{
-					display: none;
-				}
-			}
-		}
-
-		.button-block{
-			height: 100%;
-			display: flex;
-			align-items: center;
-
-			.phone-number{
-				margin-right: 33px;
-				.icon{
-					margin-right: 12px;
-				}
-				font-family: 'Manrope';
-				font-style: normal;
-				font-weight: 500;
-				font-size: 14px;
-				line-height: 19px;
-				text-align: center;
-				
-				color: #252B42;
-			}
-			button{
-				width: 137px;
-				height: 100%;
-			}
-			button.sign-up{
-				background: #4F46BA;
-				border-radius: 5px;
-				border: 0;
-	
-				font-family: 'Inter';
-				font-style: normal;
-				font-weight: 500;
-				font-size: 14px;
-				line-height: 17px;
-				/* identical to box height */
-
-				text-align: center;
-
-				color: #FFFFFF;
-			}
-		}
-	}
-}
-
-
+@import "sections/main.scss";
+@import "sections/questions.scss";
+@import "sections/about.scss";
+@import "sections/assignments.scss";
 
