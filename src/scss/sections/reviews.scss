@@ -1,0 +1,156 @@
+section.reviews{
+    margin-top: 196px;
+    position: relative;
+    h2{
+        /* h2 */
+        margin: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        /* identical to box height, or 125% */
+
+        letter-spacing: 0.2px;
+
+        color: #252B42;
+    }
+    .desctiption{
+        /* paragraph */
+        margin-top: 10px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+        letter-spacing: 0.2px;
+
+        color: #737373;
+    }
+
+    .reviews{
+        margin-top: 100px;
+
+        display: flex;
+        .review{
+            margin-right: 10px;
+            background-color: #FFFFFF;
+            .stars-container{
+                // padding: 92px 94px;
+                width: 47%;
+                margin: 0 auto;
+
+
+
+                .stars{
+                    
+                    margin-top: 56px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    // display: flex;
+                    // justify-content: center;
+                }
+                .text{
+                    margin-top: 16px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    /* or 143% */
+
+                    text-align: center;
+                    letter-spacing: 0.2px;
+
+                    color: #737373;
+
+
+                    /* Inside auto layout */
+
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                    margin: 15px 0px;
+     
+                }
+          
+               
+            }
+            .parent{
+                margin: 0 auto;
+                margin-bottom: 25px;
+                display: flex;
+                justify-content: flex-start;
+                width: 50%;
+                .meta{
+                    margin: 3px 0;
+                    .name{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 24px;
+                        letter-spacing: 0.2px;
+                        color: #4F46BA;
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                        margin: 0px 0px;
+                    }
+                    .description{
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 16px;
+                        letter-spacing: 0.2px;
+                        color: #252B42;
+                        flex: none;
+                        order: 1;
+                        flex-grow: 0;
+                        margin: 0px 0px;
+                    }
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    width: 100%;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+    .ellipse1{
+        /* Ellipse 11 */
+
+
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        left: -86px;
+        top: 290px;
+
+        background: #FFC223;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 100%;
+    }
+
+    .ellipse2{
+        /* Ellipse 11 */
+
+
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        right: -86px;
+        top: 290px;
+
+        background: #FFC223;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 100%;
+    }
+}

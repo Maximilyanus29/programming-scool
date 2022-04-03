@@ -1,0 +1,58 @@
+section.points{
+    margin-top: 180px;
+    
+    h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 50px;
+        /* identical to box height, or 78% */
+        
+        letter-spacing: 0.2px;
+        
+        color: #252B42;
+    }
+    .card-points{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 119px;
+        display: flex;
+ 
+        .card-point{
+            .img img{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            background: #FFFFFF;
+            border-radius: 10px;
+            margin-right: 40px;
+            .description{
+                text-align: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 24px;
+                /* identical to box height, or 86% */
+
+                letter-spacing: 0.1px;
+
+                color: #252B42;
+
+
+                /* Inside auto layout */
+
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+                margin: 10px 0px;
+                padding: 14px 0;
+
+            }
+        }
+        
+    }
+
+   
+}
