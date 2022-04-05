@@ -32,3 +32,41 @@ $screen-xl:                   1440px;
     @content;
   }
 }
+
+// using
+// @include media-lg{
+
+// }
+
+
+
+
+// @mixin media-sm {
+//   @media (min-width: $screen-sm) {
+//     @content;
+//   }
+// };
+
+// @mixin media-md {
+//   @media (min-width: $screen-md) {
+//     @content;
+//   }
+// };
+
+// @mixin media-lg {
+//   @media (min-width: $screen-lg) {
+//     @content;
+//   }
+// };
+
+// @mixin media-xl {
+//   @media (min-width: $screen-xl) {
+//     @content
+//   }
+// };
+
+// @mixin media-custom($width) {
+//   @media (min-width: $width) {
+//     @content;
+//   }
+// }

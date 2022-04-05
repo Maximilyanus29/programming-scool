@@ -1,0 +1,205 @@
+section.course-page{
+    margin-top: 100px;
+    position: relative;
+    .block{
+        display: flex;
+        background: #FFFFFF;
+        border: 1px solid #4F46BA;
+        box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25) inset;
+  
+        .description{
+            width: 50%;
+       
+            margin: 84px 0 82px 83px ;
+            h1{
+                margin: auto;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 66px;
+                line-height: 73px;
+                color: #252B42;
+            }
+            .age{
+                /* link */
+    
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 24px;
+                /* identical to box height, or 171% */
+    
+                letter-spacing: 0.2px;
+    
+                color: #4F46BA;
+    
+    
+                /* Inside auto layout */
+    
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+    
+            }
+            h5.title{
+                /* h5 */
+    
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+    
+                letter-spacing: 0.1px;
+    
+                color: #252B42;
+    
+    
+                /* Inside auto layout */
+    
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 10px 0px;
+            }
+            .description{
+                /* paragraph */
+    
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                /* or 143% */
+    
+                letter-spacing: 0.2px;
+    
+                color: #737373;
+    
+    
+                /* Inside auto layout */
+    
+                flex: none;
+                order: 2;
+                flex-grow: 0;
+                margin: 10px 0px;
+            }
+            .interval{
+                /* h5 */
+    
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+    
+                // text-align: center;
+                letter-spacing: 0.1px;
+    
+                color: #FFC223;
+    
+    
+                /* Inside auto layout */
+    
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+          
+            }
+            button{
+                border: none;
+                width: 172px;
+                height: 48px;
+                background: #4F46BA;
+                border-radius: 5px;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 19px;
+                text-align: center;
+    
+                color: #FFFFFF;
+                img{
+                    margin-left: 35px;
+                }
+            }
+        }
+        .img{
+            position: relative;
+            width: 50%;
+            img{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.course-page-description{
+    margin-top: 110px;
+    margin-bottom: 232px;
+
+    .description{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: 0.1px;
+
+        color: #252B42;
+    }
+
+    .row2{
+        margin-top: 100px;
+        display: flex;
+        div{
+            width: 50%;
+        }
+        .title{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+            line-height: 60px;
+            /* or 50% */
+            
+            letter-spacing: 0.1px;
+            
+            color: #252B42;
+        }
+        .description{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* or 150% */
+
+            letter-spacing: 0.1px;
+
+            color: #252B42;
+        }
+    }
+    .row3{
+        margin-top: 100px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        letter-spacing: 0.1px;
+
+        color: #252B42;
+    }
+
+}

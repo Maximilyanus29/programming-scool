@@ -4,25 +4,28 @@ body{
 	position: relative;
 	width: 100%;
 	background: linear-gradient(135.91deg, #6EADFF 9.65%, #B98CF9 74.17%);
-	.background-gradient{
-		/* Ellipse 17 */
-		position: absolute;
-		width: 2665px;
-		height: 2647px;
+}
+.background-gradient{
+	/* Ellipse 17 */
+	position: absolute;
+	width: 2665px;
+	height: 2647px;
 
-		background: rgba(193, 248, 255, 0.8);
-		filter: blur(972.1px);
-		transform: rotate(-90deg);
-	}
-	.background-gradient2{
-		/* Ellipse 16 */
-		position: absolute;
-		width: 2916px;
-		height: 3030px;
-		left: -1478px;
-		top: 7524px;
-		background: rgba(123, 97, 255, 0.7);
-		filter: blur(972.1px);
-		transform: rotate(-90deg);
-	}
+	background: rgba(193, 248, 255, 0.8);
+	filter: blur(972.1px);
+	transform: rotate(-90deg);
+}
+.background-gradient2{
+	/* Ellipse 16 */
+	position: absolute;
+	width: 2916px;
+	height: 3030px;
+	left: -1478px;
+	top: 7524px;
+	background: rgba(123, 97, 255, 0.7);
+	filter: blur(972.1px);
+	transform: rotate(-90deg);
+}
+button{
+	cursor: pointer;
 }

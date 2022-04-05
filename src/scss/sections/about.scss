@@ -19,11 +19,11 @@ section.about{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
 
 
         .item{
-            width: 33.3%;
+            width: 26%;
             .title{
                 position: relative;
                 font-family: 'Montserrat';

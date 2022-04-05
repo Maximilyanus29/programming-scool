@@ -15,15 +15,14 @@
 		display: block;
 	}
 	z-index: 1000;
-	margin: auto;
-	width: 35%;
-	height: 90%;
-	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #F3F6FD;
+    width: 30%;
+    transform: translate(-50%, -50%);
+	border-radius: 5px;
 	.img{
 		position: relative;
 		height: 235px;
@@ -38,8 +37,8 @@
 		}
 	}
 	.description{
-
-
+		height: auto;
+		border-radius: 5px;
 		padding: 10px 30px 71px 30px;
 		background-color: #FFFFFF;
 		.question_title{
@@ -97,6 +96,4 @@
 			}
 		}
 	}
-
 }
-
