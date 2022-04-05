@@ -34,9 +34,16 @@ section.reviews{
     .reviews{
         margin-top: 100px;
 
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        @include media-lg{
+            grid-template-columns: repeat(1, 1fr);
+         
+        }
+
         .review{
-            margin-right: 10px;
+            // margin-right: 10px;
             background-color: #FFFFFF;
             .stars-container{
                 // padding: 92px 94px;
@@ -46,7 +53,6 @@ section.reviews{
 
 
                 .stars{
-                    
                     margin-top: 56px;
                     display: flex;
                     justify-content: space-between;
@@ -75,10 +81,10 @@ section.reviews{
                     order: 1;
                     flex-grow: 0;
                     margin: 15px 0px;
-     
+    
                 }
-          
-               
+        
+            
             }
             .parent{
                 margin: 0 auto;
@@ -122,6 +128,8 @@ section.reviews{
                     margin-left: 15px;
                 }
             }
+
+
         }
     }
     .ellipse1{

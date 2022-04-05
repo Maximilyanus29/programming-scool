@@ -17,6 +17,10 @@ section.main{
             width: 100%;
         }
         h1{
+            @include media-sm{
+                font-size: 32px;
+                line-height: 35px;
+            }
             // margin-bottom: 0;
             font-family: 'Manrope';
             font-style: normal;

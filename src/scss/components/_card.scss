@@ -1,16 +1,7 @@
 .card{
-    width: 29.5%;
-    
-    @include media-xl{
-        width: 43.5%;
-    }
 
-    @include media-lg{
-        width: 93%;
-    }
-   
 
-    margin: 23px;
+
     z-index: 1;
     .img{
         width: 100%;
@@ -22,8 +13,15 @@
         }
     
         @include media-xll{
-            height: 350px;
+            height: 370px;
         }
+
+        @include media-sm{
+            height: 230px;
+        }
+
+    
+        
 
         img{
             position: absolute;

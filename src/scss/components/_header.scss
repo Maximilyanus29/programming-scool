@@ -4,6 +4,12 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	// @include media-sm{
+	// 	flex-direction: column;
+	// 	justify-content: center;
+
+	// }
+
 	.logo{
 		font-family: 'Manrope';
 		font-style: normal;
@@ -15,6 +21,11 @@ header{
 	}
 	nav{
 		display: flex;
+		@include media-sm{
+			flex-direction: column;
+			justify-content: center;
+	
+		}
 		.menu-item{
 	
 	
@@ -36,6 +47,7 @@ header{
 			@include media-lg{
 				margin-right: 10px;
             }
+			
 			.title img{
 				@include media-xl{
 					display: none;

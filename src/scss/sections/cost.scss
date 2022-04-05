@@ -38,12 +38,34 @@ section.cost{
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
+        @include media-lg{
+            flex-direction: column;
+        }
         .programm{
+            @include media-lg{
+                width: 100%;
+                padding: 20px;
+                margin: 20px 0;
+            }
             background-color: #FFFFFF;
             width: 33%;
             padding: 40px;
             .title{
                /* h2 */
+
+                @include media-xl{
+                    font-size: 33px;
+                }
+       
+            
+                // @include media-xll{
+                //     height: 270px;
+                // }
+        
+                // @include media-lg{
+                //     height: 410px;
+                // }
+    
 
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -74,7 +96,10 @@ section.cost{
             button{
                 /* link */
                 margin-top: 28px;
-
+                @include media-xl{
+                    font-size: 12px;
+                }
+        
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
@@ -113,6 +138,11 @@ section.cost{
         width: 269px;
         height: 68px;
         border: none;
+
+        @include media-sm{
+            width: 100%;
+
+        }
     }
 
 

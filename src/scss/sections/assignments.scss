@@ -3,6 +3,12 @@ section.assignments{
     margin-top: 200px;
     position: relative;
     h2{
+       
+        
+        @include media-sm{
+            font-size:  33px;
+         
+        }
         margin: 0 auto;
         height: 50px;
         font-family: 'Montserrat';
@@ -17,6 +23,11 @@ section.assignments{
         color: #252B42;
     }
     p{
+        @include media-sm{
+            font-size:  13px;
+         
+        }
+        
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 500;
@@ -31,15 +42,21 @@ section.assignments{
     .card-wrap{
         margin: 0 auto;
         width: 88%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        gap: 10px;
+
+
         
         // justify-content: center;
     }
 
     // Всякие круглишки
     .ellipse1{
+                
+        @include media-sm{
+            display: none;
+         
+        }
         position: absolute;
         width: 190px;
         height: 189px;
