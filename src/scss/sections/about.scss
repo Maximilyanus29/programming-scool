@@ -1,6 +1,7 @@
 section.about{
     margin-top: 233px;
     h2{
+
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 800;
@@ -12,7 +13,11 @@ section.about{
 
         color: #FFC223;
         text-shadow: 5px 5px #558ABB;
-        text-shadow: -2px -2px #558abb
+        text-shadow: -2px -2px #558abb;
+
+        
+
+
     }
 
     .about-items{
@@ -24,6 +29,11 @@ section.about{
 
         .item{
             width: 26%;
+            @include media-lg{
+                width: 39%;
+            }
+     
+     
             .title{
                 position: relative;
                 font-family: 'Montserrat';
@@ -42,6 +52,10 @@ section.about{
                     position: absolute;
                     left: -45px;
                     content: url('../img/svg/coolicon (4).svg');
+
+                    @include media-lg{
+                        content: "";
+                    }
                 }
             }
             .description{

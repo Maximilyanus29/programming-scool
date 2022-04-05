@@ -2,33 +2,40 @@ $screen-sm:                   480px;
 $screen-md:                   768px;
 $screen-lg:                   999px;
 $screen-xl:                   1440px;
+$screen-xll:                  1024px;
 
 @mixin media-sm {
-  @media (min-width: $screen-sm) {
+  @media (max-width: $screen-sm) {
     @content;
   }
 };
 
 @mixin media-md {
-  @media (min-width: $screen-md) {
+  @media (max-width: $screen-md) {
     @content;
   }
 };
 
 @mixin media-lg {
-  @media (min-width: $screen-lg) {
+  @media (max-width: $screen-lg) {
     @content;
   }
 };
 
 @mixin media-xl {
-  @media (min-width: $screen-xl) {
+  @media (max-width: $screen-xl) {
+    @content
+  }
+};
+
+@mixin media-xll {
+  @media (max-width: $screen-xll) {
     @content
   }
 };
 
 @mixin media-custom($width) {
-  @media (min-width: $width) {
+  @media (max-width: $width) {
     @content;
   }
 }
