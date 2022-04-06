@@ -6,10 +6,27 @@ section.course-page{
         background: #FFFFFF;
         border: 1px solid #4F46BA;
         box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25) inset;
-  
+        height: 600px;
+
+
+        @include media-xl{
+            height: 400px;
+        }
+        @include media-xll{
+            height:auto;
+
+            flex-direction: column;
+        }
+       
+        @include media-sm{
+            // flex-direction: column;
+        }
         .description{
             width: 50%;
-       
+
+            @include media-xl{
+                margin: 0 0 0 15px  ;
+            }
             margin: 84px 0 82px 83px ;
             h1{
                 margin: auto;
@@ -131,6 +148,8 @@ section.course-page{
         .img{
             position: relative;
             width: 50%;
+   
+
             img{
                 position: absolute;
                 width: 100%;

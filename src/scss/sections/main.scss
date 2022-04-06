@@ -3,7 +3,9 @@ section.main{
     margin-top: 60px;
     margin-bottom: 100px;
 
-
+    @include media-lg{
+        margin-top: auto;
+    }
     @include media-lg{
         flex-direction: column;
     }
@@ -20,6 +22,7 @@ section.main{
             @include media-sm{
                 font-size: 32px;
                 line-height: 35px;
+                margin: 0;
             }
             // margin-bottom: 0;
             font-family: 'Manrope';
@@ -31,6 +34,15 @@ section.main{
             color: #252B42;
         }
         p{
+            @include media-sm{
+                font-size: 11px;
+                line-height: 16px;
+    
+
+            }
+
+
+
             font-family: 'Manrope';
             margin-top: 16px;
             font-style: normal;

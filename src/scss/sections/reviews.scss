@@ -1,6 +1,9 @@
 section.reviews{
     margin-top: 196px;
     position: relative;
+    @include media-sm{
+        margin-top: 30px;
+    }
     h2{
         /* h2 */
         margin: 0;
@@ -33,6 +36,9 @@ section.reviews{
 
     .reviews{
         margin-top: 100px;
+        @include media-sm{
+            margin-top: 30px;
+        }
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -150,7 +156,10 @@ section.reviews{
     .ellipse2{
         /* Ellipse 11 */
 
-
+        @include media-sm{
+            display: none;
+         
+        }
         position: absolute;
         width: 52px;
         height: 52px;

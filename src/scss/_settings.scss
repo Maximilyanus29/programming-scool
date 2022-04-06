@@ -60,6 +60,10 @@ a {
 .container-gradient-width {
   width  : $container-width;
   margin : 0 auto;
+  @include media-sm{
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .visually-hidden {
@@ -80,5 +84,9 @@ a {
 	z-index: 1;
 	width: 90%;
 	margin: 20px 5% 177px 5%;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
+  	@include media-sm{
+      width: 100%;
+      margin: auto;
+		}
 }

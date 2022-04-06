@@ -6,16 +6,9 @@ section.questions{
         grid-template-columns: repeat(2, 1fr);
         // gap: 5%;
         grid-column-gap: 10px;
-        grid-row-gap: 5em;
+        grid-row-gap: 40px;
     }
 
-    @include media-lg{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        // gap: 5%;
-        grid-column-gap: 10px;
-        grid-row-gap: 5em;
-    }
 
     .item{
 
@@ -25,6 +18,10 @@ section.questions{
     
         }
         .question{
+            @include media-sm{
+                font-size: 20px;
+                line-height: 14px;
+            }
             display: block;
             margin-top: 23px;
             font-family: 'Manrope';
@@ -39,6 +36,11 @@ section.questions{
             color: #4F46BA;
         }
         .answer{
+
+            @include media-sm{
+                font-size: 12px;
+                line-height: 16px;
+            }
             margin-top: 18px;
             font-family: 'Manrope';
             font-style: normal;

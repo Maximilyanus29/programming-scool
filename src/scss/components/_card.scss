@@ -16,8 +16,12 @@
             height: 370px;
         }
 
-        @include media-sm{
+        @include media-lg{
             height: 230px;
+        }
+
+        @include media-sm{
+            height: 250px;
         }
 
     

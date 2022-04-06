@@ -23,9 +23,15 @@
     width: 30%;
     transform: translate(-50%, -50%);
 	border-radius: 5px;
+	@include media-sm{
+		width: 90%;
+	}
 	.img{
 		position: relative;
-		height: 235px;
+		height: 230px;
+		@include media-sm{
+			height: 160px;
+		}
 		img{
 			position: absolute;
 			width: 100%;
@@ -41,7 +47,16 @@
 		border-radius: 5px;
 		padding: 10px 30px 71px 30px;
 		background-color: #FFFFFF;
+
+		@include media-sm{
+			padding: 10px 30px 30px 30px;
+		}
 		.question_title{
+			@include media-sm{
+				font-size: 25px;
+				line-height: 23px;
+			}
+
 
 			font-family: 'Manrope';
 			font-style: normal;
@@ -52,6 +67,14 @@
 
 		}
 		p{
+
+			@include media-sm{
+				font-size: 11px;
+				line-height: 20px;
+			}
+
+
+
 			font-family: 'Montserrat';
 			font-style: normal;
 			font-weight: 400;
@@ -68,6 +91,11 @@
 			margin-top: 40px;
 			display: flex;
 			flex-direction: column;
+
+			@include media-sm{
+				margin-top: 0;
+
+			}
 	
 			.input-phone{
 
@@ -78,6 +106,10 @@
 			}
 
 			button[type=submit]{
+				@include media-sm{
+					width: 100%;
+				}
+
 				margin-top: 35px;
 				width: 50%;
 				background: #4F46BA;

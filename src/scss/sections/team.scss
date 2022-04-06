@@ -1,5 +1,8 @@
 section.team{
     margin-top: 224px;
+    @include media-sm{
+        margin-top: 30px;
+    }
     position: relative;
     h2{
         /* h2 */
