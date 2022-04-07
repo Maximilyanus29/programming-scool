@@ -6,125 +6,119 @@ section.course-page{
         background: #FFFFFF;
         border: 1px solid #4F46BA;
         box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25) inset;
-        height: 600px;
 
-
-        @include media-xl{
-            height: 400px;
-        }
-        @include media-xll{
-            height:auto;
-
+        @include media-sm{
             flex-direction: column;
         }
-       
-        @include media-sm{
-            // flex-direction: column;
-        }
-        .description{
+        .description_block{
             width: 50%;
+            padding: 84px;
 
-            @include media-xl{
-                margin: 0 0 0 15px  ;
+            @include media-sm{
+                width: 100%;
+                padding: 20px;
             }
-            margin: 84px 0 82px 83px ;
             h1{
-                margin: auto;
                 font-family: 'Manrope';
                 font-style: normal;
                 font-weight: 800;
-                font-size: 66px;
+                font-size: 32px;
                 line-height: 73px;
+                /* identical to box height, or 111% */
+
+                @include media-sm{
+                    display: none;
+
+
+                }
+
+                margin: auto;
                 color: #252B42;
+                &.sm{
+                    display: none;
+                    @include media-sm{
+                        display: block;
+                        line-height: 44px;
+
+
+                    }
+                }
             }
             .age{
                 /* link */
-    
+
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 14px;
                 line-height: 24px;
                 /* identical to box height, or 171% */
-    
+
                 letter-spacing: 0.2px;
-    
+
                 color: #4F46BA;
-    
-    
+
+
                 /* Inside auto layout */
-    
+
                 flex: none;
                 order: 0;
                 flex-grow: 0;
-    
-            }
-            h5.title{
-                /* h5 */
-    
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 700;
-                font-size: 16px;
-                line-height: 24px;
-                /* identical to box height, or 150% */
-    
-                letter-spacing: 0.1px;
-    
-                color: #252B42;
-    
-    
-                /* Inside auto layout */
-    
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-                margin: 10px 0px;
+                margin: 0px 10px;
             }
             .description{
                 /* paragraph */
-    
+
+     
+
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 20px;
                 /* or 143% */
-    
+
                 letter-spacing: 0.2px;
-    
+
                 color: #737373;
-    
-    
+            }
+            .location{
+                /* h6 */
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 24px;
+                /* identical to box height, or 171% */
+
+                letter-spacing: 0.2px;
+
+                color: #737373;
+
+
                 /* Inside auto layout */
-    
+
                 flex: none;
-                order: 2;
+                order: 1;
                 flex-grow: 0;
-                margin: 10px 0px;
+                // margin: 0px 10px;
             }
             .interval{
                 /* h5 */
-    
+
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 700;
                 font-size: 16px;
                 line-height: 24px;
-                /* identical to box height, or 150% */
-    
-                // text-align: center;
+
                 letter-spacing: 0.1px;
-    
+
                 color: #FFC223;
-    
-    
-                /* Inside auto layout */
-    
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-          
+
+
+
             }
             button{
                 border: none;
@@ -138,24 +132,50 @@ section.course-page{
                 font-size: 14px;
                 line-height: 19px;
                 text-align: center;
-    
+                @include media-lg{
+                    display: none;
+                }
+        
                 color: #FFFFFF;
                 img{
                     margin-left: 35px;
                 }
+                &.sm{
+                    margin-top: 40px;
+                    width: 100%;
+                    display: none;
+                    @include media-lg{
+                        display: block;
+                    }
+                }
             }
         }
         .img{
-            position: relative;
             width: 50%;
-   
-
+            position: relative;
+            @include media-sm{
+                display: none;
+            }
             img{
                 position: absolute;
                 width: 100%;
                 height: 100%;
             }
         }
+        .img.sm{
+            width: 100%;
+            height: 257px;
+
+            @include media-sm{
+                display: block;
+            }
+            display: none;
+        }
+
+
+
+
+     
     }
 }
 
@@ -164,6 +184,20 @@ section.course-page{
     margin-bottom: 232px;
 
     .description{
+
+        @include media-sm{
+            font-size: 12px;
+            line-height: 21px;
+            /* or 133% */
+    
+            // letter-spacing: 0.1px;
+    
+            color: #252B42;
+        }
+
+
+
+
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -180,7 +214,13 @@ section.course-page{
         margin-top: 100px;
         display: flex;
         div{
+            @include media-sm{
+                width: 100%;
+            }
             width: 50%;
+        }
+        @include media-sm{
+            flex-direction: column;
         }
         .title{
             font-family: 'Montserrat';
@@ -189,6 +229,13 @@ section.course-page{
             font-size: 48px;
             line-height: 60px;
             /* or 50% */
+            @include media-sm{
+                text-align: center;
+                font-size: 18px;
+                line-height: 24px;
+                font-weight: 700;
+
+            }
             
             letter-spacing: 0.1px;
             
@@ -205,6 +252,31 @@ section.course-page{
             letter-spacing: 0.1px;
 
             color: #252B42;
+
+            @include media-sm{
+                text-align: center;
+                margin-top: 20px;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                // line-height: 12px;
+                /* or 150% */
+
+                text-align: center;
+
+            }
+            ul{
+                @include media-sm{
+                    margin: auto;
+    
+                }
+                .no_mark{
+                    text-decoration: none;
+                    list-style: none;
+                }
+            }
         }
     }
     .row3{

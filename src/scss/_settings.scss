@@ -55,6 +55,10 @@ a {
 .container {
   width  : $container-width;
   margin : 0 auto;
+  @include media-sm{
+    width: 95%;
+    margin: 0 auto;
+  }
 }
 
 .container-gradient-width {
