@@ -4,8 +4,6 @@ section.assignments{
             
     @include media-sm{
         margin-top: 100px;
-
-     
     }
     position: relative;
     h2{
@@ -50,7 +48,15 @@ section.assignments{
         width: 88%;
         display: grid;
         gap: 10px;
+        grid-template-columns: repeat(4, 1fr);
 
+        @include media-xl{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include media-sm{
+            grid-template-columns: repeat(1, 1fr);
+        }
 
         
         // justify-content: center;
