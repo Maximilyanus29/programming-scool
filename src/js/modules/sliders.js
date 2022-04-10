@@ -1,8 +1,16 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
+// import Swiper, { Navigation, Pagination } from 'swiper';
+  // import Swiper and modules styles
+// import 'swiper/css';
+  // core version + navigation, pagination modules:
+  import Swiper, { Navigation, Pagination } from 'swiper';
+  // import Swiper and modules styles
+//   import 'swiper/css';
+//   import 'swiper/css/navigation';
+//   import 'swiper/css/pagination';
 
 const sliders = () => {
     // Главный слайдер
-    new Swiper('.work__slider', {
+    new Swiper('.swiper', {
         modules: [Navigation, Pagination],
         speed: 500,
         navigation: {
@@ -30,10 +38,7 @@ const sliders = () => {
                 slidesPerView: 3,
                 spaceBetween: 30
             },
-            1440: {
-                slidesPerView: 4,
-                spaceBetween: 20
-            }
+
         }
     });
 };

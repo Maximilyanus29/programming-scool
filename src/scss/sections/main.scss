@@ -20,7 +20,7 @@ section.main{
         }
         h1{
             @include media-sm{
-                font-size: 32px;
+                font-size: 29px;
                 line-height: 35px;
                 margin: 0;
             }
@@ -28,7 +28,7 @@ section.main{
             font-family: 'Manrope';
             font-style: normal;
             font-weight: 800;
-            font-size: 66px;
+            font-size: 57px;
             line-height: 73px;
             /* or 111% */
             color: #252B42;

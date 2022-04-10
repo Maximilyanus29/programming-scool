@@ -3,6 +3,7 @@ section.about{
     @include media-sm{
         margin-top: 50px;
 
+
     }
 
     h2{
@@ -41,11 +42,15 @@ section.about{
         grid-template-columns: repeat(3, 1fr);
         gap: 10%;
         @include media-lg{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        @include media-xll{
             grid-template-columns: repeat(2, 1fr);
-
         }
 
         @include media-sm{
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2%;
             
         }
         

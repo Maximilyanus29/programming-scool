@@ -18,7 +18,7 @@ section.reviews{
 
         color: #252B42;
     }
-    .desctiption{
+    .description{
         /* paragraph */
         margin-top: 10px;
 
@@ -36,19 +36,23 @@ section.reviews{
 
     .reviews{
         margin-top: 100px;
+        width: 100%;
+        height: 100%;
+        // height: 300px;
         @include media-sm{
             margin-top: 30px;
         }
 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        @include media-lg{
-            grid-template-columns: repeat(1, 1fr);
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr);
+        // gap: 10px;
+        // @include media-lg{
+        //     grid-template-columns: repeat(1, 1fr);
          
-        }
+        // }
 
         .review{
+            height: auto;
             // margin-right: 10px;
             background-color: #FFFFFF;
             .stars-container{
@@ -93,6 +97,10 @@ section.reviews{
             
             }
             .parent{
+                img{
+                    width: 50px;
+                    height: 51px;
+                }
                 margin: 0 auto;
                 margin-bottom: 25px;
                 display: flex;
