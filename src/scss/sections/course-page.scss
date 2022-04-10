@@ -1,5 +1,9 @@
 section.course-page{
     margin-top: 100px;
+    @include media-sm{
+        margin-top: auto;
+
+    }
     position: relative;
     .block{
         display: flex;
@@ -7,14 +11,14 @@ section.course-page{
         border: 1px solid #4F46BA;
         box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.25) inset;
 
-        @include media-sm{
+        @include media-xl{
             flex-direction: column;
         }
         .description_block{
             width: 50%;
             padding: 84px;
 
-            @include media-sm{
+            @include media-xl{
                 width: 100%;
                 padding: 20px;
             }
@@ -26,7 +30,7 @@ section.course-page{
                 line-height: 73px;
                 /* identical to box height, or 111% */
 
-                @include media-sm{
+                @include media-xl{
                     display: none;
 
 
@@ -36,9 +40,10 @@ section.course-page{
                 color: #252B42;
                 &.sm{
                     display: none;
-                    @include media-sm{
+                    @include media-xl{
                         display: block;
-                        line-height: 44px;
+                        line-height: 32px;
+                        font-size: 27px;
 
 
                     }
@@ -73,10 +78,17 @@ section.course-page{
 
                 font-family: 'Montserrat';
                 font-style: normal;
-                font-weight: 400;
-                font-size: 14px;
+                font-weight: 700;
+                font-size: 24px;
                 line-height: 20px;
                 /* or 143% */
+                @include media-xl{
+              
+                    line-height: 24px;
+              
+
+                }
+                
 
                 letter-spacing: 0.2px;
 
@@ -132,7 +144,7 @@ section.course-page{
                 font-size: 14px;
                 line-height: 19px;
                 text-align: center;
-                @include media-lg{
+                @include media-xl{
                     display: none;
                 }
         
@@ -144,8 +156,9 @@ section.course-page{
                     margin-top: 40px;
                     width: 100%;
                     display: none;
-                    @include media-lg{
+                    @include media-xl{
                         display: block;
+                        
                     }
                 }
             }
@@ -153,8 +166,9 @@ section.course-page{
         .img{
             width: 50%;
             position: relative;
-            @include media-sm{
+            @include media-lg{
                 display: none;
+
             }
             img{
                 position: absolute;
@@ -164,11 +178,38 @@ section.course-page{
         }
         .img.sm{
             width: 100%;
-            height: 257px;
+            height: 400px;
+            // @include media-sm{
+            //     height: 257px;display: block;
+            // }
 
-            @include media-sm{
-                display: block;
+
+            @include media-xl{
+            display: block;
+
+                height: 600px;
             }
+            @include media-lg{
+            display: block;
+
+                height:    600px;
+            }
+            @include media-md{
+            display: block;
+
+                height:   500px;
+            }
+            @include media-sm{
+            display: block;
+
+                height:  290px;
+            }
+
+
+
+          
+           
+
             display: none;
         }
 
@@ -186,9 +227,10 @@ section.course-page{
     .description{
 
         @include media-sm{
-            font-size: 12px;
-            line-height: 21px;
+            font-size: 23px;
+            line-height: 26px;
             /* or 133% */
+            font-weight: 700;
     
             // letter-spacing: 0.1px;
     
@@ -208,6 +250,11 @@ section.course-page{
         letter-spacing: 0.1px;
 
         color: #252B42;
+    }
+    ul{
+        li{
+            font-weight: 600;
+        }
     }
 
     .row2{

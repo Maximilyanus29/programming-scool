@@ -76,6 +76,11 @@ section.team{
             .img{
                 position: relative;
                 height: 235px;
+
+                @include media-sm{
+                    height: 300px;
+                 
+                }
   
                 img{
                     position: absolute;

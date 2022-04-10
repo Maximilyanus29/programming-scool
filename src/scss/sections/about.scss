@@ -35,7 +35,16 @@ section.about{
 
     .about-items{
         &.to_row{
-            grid-template-columns: repeat(1, 1fr);
+            grid-template-columns: repeat(3, 1fr);
+            @include media-sm{
+                grid-template-columns: repeat(1, 1fr);
+                gap: 25px;
+
+
+            }
+            .item .title{
+                font-size: 27px;
+            }
         }
 
         display: grid;
