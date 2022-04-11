@@ -1,5 +1,5 @@
 section.about{
-    margin-top: 233px;
+    margin-top: 140px;
     @include media-sm{
         margin-top: 50px;
 
@@ -7,19 +7,6 @@ section.about{
     }
 
     h2{
-
-        font-family: 'Manrope';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 96px;
-        line-height: 73px;
-        /* identical to box height, or 76% */
-
-        text-align: center;
-
-        color: #FFC223;
-        text-shadow: 5px 5px #558ABB;
-        text-shadow: -2px -2px #558abb;
 
         @include media-lg{
             font-size: 57px;
@@ -29,11 +16,38 @@ section.about{
             line-height: 40px;
 
         }
+        font-size: 64px;
+        line-height: 73px;
+        text-align: center;
+        background-color: #FFC223;
+        color: transparent;
+        text-shadow: 3px 3px 3px rgba(255, 255, 127, 0.33);
+
+        background-clip: text;
 
 
     }
 
     .about-items{
+        margin: auto;
+        width: 90%;
+
+        // flex: 1 1 auto;
+        // margin: 0 5px;
+
+        .col1{
+            width: 347px;
+        }
+        .col2{
+            width: 389px;
+        }
+        .col3{
+            width: 376px;
+        }
+        justify-content: space-between;
+
+        margin-top: 66px;
+
         &.to_row{
             grid-template-columns: repeat(3, 1fr);
             @include media-sm{
@@ -47,29 +61,35 @@ section.about{
             }
         }
 
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10%;
-        @include media-lg{
-            grid-template-columns: repeat(1, 1fr);
-        }
-        @include media-xll{
-            grid-template-columns: repeat(2, 1fr);
-        }
+        display: flex;
+        // grid-template-columns: repeat(3, 1fr);
+        // // gap: 59px;
+        // @include media-lg{
+        //     grid-template-columns: repeat(1, 1fr);
+        // }
+        // @include media-xll{
+        //     grid-template-columns: repeat(2, 1fr);
+        // }
 
-        @include media-sm{
-            grid-template-columns: repeat(1, 1fr);
-            gap: 2%;
+        // @include media-sm{
+        //     grid-template-columns: repeat(1, 1fr);
+        //     gap: 2%;
             
-        }
+        // }
         
 
         .item{
             // width: 26%;
+            margin-bottom: 40px;
+            height: 260px;
    
      
      
             .title{
+                display: flex;
+                img{
+                    margin-right: 9px;
+                }
                 position: relative;
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -88,16 +108,16 @@ section.about{
                 }
      
 
-                &::before {
-                    display: block;
-                    position: absolute;
-                    left: -45px;
-                    content: url('../img/svg/coolicon (4).svg');
+                // &::before {
+                //     display: block;
+                //     position: absolute;
+                //     left: -45px;
+                //     content: url('../img/svg/coolicon (4).svg');
 
-                    @include media-lg{
-                        content: "";
-                    }
-                }
+                //     @include media-lg{
+                //         content: "";
+                //     }
+                // }
             }
             .description{
 

@@ -1,6 +1,13 @@
 section.questions{
+    margin: 0 auto;
+    margin-top: 184px;
+
     display: flex;
     justify-content: space-between;
+
+    width: 1084px;
+    // height: 177px;
+    
     @include media-lg{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

@@ -20,44 +20,20 @@ section.main{
         }
         h1{
             @include media-sm{
-                font-size: 29px;
-                line-height: 35px;
-                margin: 0;
-            }
-            // margin-bottom: 0;
-            font-family: 'Manrope';
-            font-style: normal;
-            font-weight: 800;
-            font-size: 57px;
-            line-height: 73px;
-            /* or 111% */
-            color: #252B42;
-        }
-        p{
-            @include media-sm{
-                font-size: 11px;
-                line-height: 16px;
-    
+                font-size: 48px;
+                line-height: 42px;
+                width: 100%;
 
             }
+            width: 110%;
+            margin: auto;
 
-
-
-            font-family: 'Manrope';
-            margin-top: 16px;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 29px;
-            /* or 145% */
-    
-            letter-spacing: 0.01em;
-    
-            color: #252B42;
+            font-size: 46px;
+            line-height: 52px;
         }
-
     }
     button{
+        margin-top: 170px;
         border: none;
         width: 172px;
         height: 48px;

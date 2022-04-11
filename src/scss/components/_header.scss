@@ -10,20 +10,7 @@ header{
 	}
 
 
-	.logo{
-		font-family: 'Manrope';
-		font-style: normal;
-		font-weight: 800;
-		font-size: 20px;
-		line-height: 27px;
-		text-transform: uppercase;
-		color: #252B42;
-		@include media-sm{
-			margin-right: 10px;
-			font-size: 10px;
-			line-height: 10px;
-		}
-	}
+
 	nav{
 		display: flex;
 
@@ -38,6 +25,10 @@ header{
 			a{
 				color: #252B42;
 				text-decoration: none;
+				img{
+	
+					margin-left: 12px;
+				}
 		
 			}
 			font-family: 'Inter';

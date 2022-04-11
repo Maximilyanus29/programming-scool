@@ -1,6 +1,6 @@
 section.assignments{
     z-index: 3;
-    margin-top: 200px;
+    margin-top: 148px;
             
     @include media-sm{
         margin-top: 100px;
@@ -45,6 +45,7 @@ section.assignments{
     }
     .card-wrap{
         margin: 0 auto;
+        margin-top: 125px;
         width: 88%;
         display: grid;
         gap: 10px;

@@ -38,6 +38,7 @@
 
     } 
     .content{
+        position: relative;
         height: 652px;
         padding: 15px;
         background-color: #FFFFFF;
@@ -73,7 +74,7 @@
         }
         h5.title{
             /* h5 */
-
+            height: 48px;
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
@@ -95,6 +96,7 @@
         }
         .description{
             /* paragraph */
+            height: 260px;
 
             font-family: 'Montserrat';
             font-style: normal;
