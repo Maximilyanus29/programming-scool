@@ -75,7 +75,8 @@ section.team{
             // margin: 0px 30px;
             .img{
                 position: relative;
-                height: 235px;
+                // height: 238px;
+                height: 220px;
 
                 @include media-sm{
                     height: 300px;
@@ -93,8 +94,8 @@ section.team{
                 }
             }
             .description{
-                margin-top: 27px;
-                margin-bottom: 18px;
+                margin: 17px;
+                // margin-bottom: 18px;
 
                 .name{
                     /* h5 */
@@ -111,22 +112,36 @@ section.team{
     
                     color: #252B42;
                 }
-                .profession{
+                .education{
                     /* small */
-                    margin-top: 7px;
-    
+
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 16px;
                     /* or 133% */
-    
+
                     text-align: center;
                     letter-spacing: 0.2px;
-    
-                    color: #737373;
+
+                    color: #252B42;
                 }
+                .profession{
+                    margin-top: 7px;
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 16px;
+                    /* or 133% */
+                    
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    
+                    color: #252B42;
+                }
+
             }
             
 

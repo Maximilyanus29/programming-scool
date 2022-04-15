@@ -1,5 +1,5 @@
 section.cost{
-    margin-top: 240px;
+    margin-top: 179px;
     margin-bottom: 288px;
     position: relative;
     @include media-sm{
@@ -99,6 +99,7 @@ section.cost{
             }
             button{
                 /* link */
+                // width: 170px;
                 margin-top: 28px;
                 @include media-xl{
                     font-size: 12px;
@@ -118,7 +119,7 @@ section.cost{
                 background-color: transparent;
 
                 img{
-                    margin-left: 10px;
+                    margin-left:65px;
                 }
             }
 

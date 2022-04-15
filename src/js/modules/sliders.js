@@ -13,6 +13,7 @@ const sliders = () => {
     new Swiper('.swiper', {
         modules: [Navigation, Pagination],
         speed: 500,
+        // spaceBetween: 11,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -32,11 +33,11 @@ const sliders = () => {
             },
             768: {
                 slidesPerView: 2,
-                spaceBetween: 20
+                spaceBetween: 11
             },
             1280: {
                 slidesPerView: 3,
-                spaceBetween: 30
+                spaceBetween: 11
             },
 
         }

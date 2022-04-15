@@ -72,8 +72,9 @@
             flex-grow: 0;
 
         }
-        h5.title{
+        .title{
             /* h5 */
+
             height: 48px;
             font-family: 'Montserrat';
             font-style: normal;
@@ -86,13 +87,6 @@
 
             color: #252B42;
 
-
-            /* Inside auto layout */
-
-            flex: none;
-            order: 1;
-            flex-grow: 0;
-            margin: 10px 0px;
         }
         .description{
             /* paragraph */
