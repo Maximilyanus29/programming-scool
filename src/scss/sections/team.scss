@@ -1,10 +1,13 @@
 section.team{
     margin-top: 224px;
     @include media-sm{
-        margin-top: 30px;
+        margin-top: 117px;
     }
+    width: 90%;
+
     position: relative;
     h2{
+        
         /* h2 */
         margin: 0;
         font-family: 'Montserrat';
@@ -17,9 +20,43 @@ section.team{
         letter-spacing: 0.2px;
 
         color: #252B42;
+
+
+        @include media-sm{
+            /* h2 */
+
+             margin: 0 auto;
+
+             font-family: 'Montserrat';
+             font-style: normal;
+             font-weight: 700;
+             font-size: 40px;
+             line-height: 50px;
+             /* identical to box height, or 125% */
+
+             letter-spacing: 0.2px;
+
+             color: #252B42;
+         }
     }
     .description{
         /* paragraph */
+
+        
+
+        @include media-sm{
+            /* h2 */
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            /* or 125% */
+            
+            letter-spacing: 0.2px;
+            
+            color: #737373;
+         }
 
         font-family: 'Montserrat';
         font-style: normal;

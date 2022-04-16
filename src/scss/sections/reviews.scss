@@ -17,6 +17,26 @@ section.reviews{
         letter-spacing: 0.2px;
 
         color: #252B42;
+
+                // height: 300px;
+                @include media-sm{
+                   /* h2 */
+                    width: 90%;
+
+                    margin: 0 auto;
+
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 50px;
+                    /* identical to box height, or 125% */
+
+                    letter-spacing: 0.2px;
+
+                    color: #252B42;
+                }
+        
     }
     .description{
         /* paragraph */

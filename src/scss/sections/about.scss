@@ -2,8 +2,6 @@ section.about{
     margin-top: 140px;
     @include media-sm{
         margin-top: 50px;
-
-
     }
 
     h2{
@@ -12,8 +10,10 @@ section.about{
             font-size: 57px;
         }
         @include media-sm{
-            font-size: 26px;
-            line-height: 40px;
+            font-size: 40px;
+            line-height: 44px;
+            text-align: left;
+            margin-left: 20px;
 
         }
         font-size: 64px;
@@ -44,7 +44,25 @@ section.about{
         .col3{
             width: 376px;
         }
+
+
         justify-content: space-between;
+
+        @include media-sm{
+            flex-direction: column;
+            .col1{
+                width: 100%;
+
+            }
+            .col2{
+                width: 100%;
+
+            }
+            .col3{
+                width: 100%;
+
+            }
+        }
 
         margin-top: 66px;
 
@@ -80,9 +98,14 @@ section.about{
 
         .item{
             // width: 26%;
-            margin-bottom: 40px;
-            height: 260px;
-   
+                margin-bottom: 40px;
+
+            @include media-sm{
+                margin-left: 5%;
+
+                // height: auto;
+
+            }
      
      
             .title{

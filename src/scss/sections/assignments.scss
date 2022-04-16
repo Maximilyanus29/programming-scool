@@ -6,47 +6,53 @@ section.assignments{
         margin-top: 100px;
     }
     position: relative;
-    h2{
-       
-        
-        @include media-sm{
-            font-size:  33px;
-         
-        }
+
+    .titles{
+        width: 90%;
         margin: 0 auto;
-        height: 50px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 64px;
-        line-height: 50px;
-        /* identical to box height, or 78% */
+        h2{
+            @include media-sm{
+                font-size:  33px;
+                margin: auto;
 
-        letter-spacing: 0.2px;
-
-        color: #252B42;
-    }
-    p{
-        @include media-sm{
-            font-size:  13px;
-         
+            }
+            margin: 0 auto;
+            height: 50px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 50px;
+            /* identical to box height, or 78% */
+    
+            letter-spacing: 0.2px;
+    
+            color: #252B42;
         }
-        
-        font-family: 'Manrope';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 29px;
-        /* identical to box height, or 145% */
-        
-        letter-spacing: 0.01em;
-        
-        color: #252B42;
+        p{
+            @include media-sm{
+                font-size:  12px;
+                margin: auto;
+             
+            }
+            
+            font-family: 'Manrope';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 29px;
+            /* identical to box height, or 145% */
+            
+            letter-spacing: 0.01em;
+            
+            color: #252B42;
+        }
     }
+    
     .card-wrap{
         margin: 0 auto;
         margin-top: 125px;
-        width: 88%;
+        width: 95%;
         display: grid;
         gap: 47px;
         grid-template-columns: repeat(3, 1fr);
@@ -56,6 +62,8 @@ section.assignments{
         }
 
         @include media-sm{
+            margin-top: 31px;
+
             grid-template-columns: repeat(1, 1fr);
         }
 

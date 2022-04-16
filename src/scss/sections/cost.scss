@@ -2,8 +2,10 @@ section.cost{
     margin-top: 179px;
     margin-bottom: 288px;
     position: relative;
+    width: 85%;
     @include media-sm{
-        margin-top: 30px;
+        margin-top: 207px;
+
         margin-bottom: 30px;
     }
     h2{
@@ -22,6 +24,18 @@ section.cost{
     }
 
     .description{
+        @include media-sm{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            /* or 111% */
+            
+            letter-spacing: 0.2px;
+            
+            color: #737373;
+        }
         /* paragraph */
         margin-top: 20px;
 
@@ -42,13 +56,15 @@ section.cost{
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
+
         @include media-lg{
             flex-direction: column;
         }
         .programm{
+
             @include media-lg{
                 width: 100%;
-                padding: 20px;
+                padding: 40px;
                 margin: 20px 0;
             }
             background-color: #FFFFFF;
@@ -60,6 +76,21 @@ section.cost{
                 @include media-xl{
                     font-size: 33px;
                 }
+                @include media-sm{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 50px;
+                    /* identical to box height, or 125% */
+
+                    letter-spacing: 0.2px;
+
+                    color: #252B42;
+                }
+                /* h2 */
+
+
        
             
                 // @include media-xll{
@@ -101,9 +132,9 @@ section.cost{
                 /* link */
                 // width: 170px;
                 margin-top: 28px;
-                @include media-xl{
-                    font-size: 12px;
-                }
+                // @include media-xl{
+                //     font-size: 12px;
+                // }
         
                 font-family: 'Montserrat';
                 font-style: normal;
