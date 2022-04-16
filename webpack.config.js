@@ -48,9 +48,8 @@ module.exports = {
     mode: 'development',
     entry: './js/main.js',
     output: {
-        filename: `/js/${filename('js')}`,
+        filename: `./js/${filename('js')}`,
         path: path.resolve(__dirname, 'web'),
-        publicPath: '',
         assetModuleFilename: 'img/[name][ext][query]'
     },
     devServer: {
