@@ -1,6 +1,6 @@
 section.team{
     margin-top: 224px;
-    @include media-sm{
+    @include media-xl{
         margin-top: 117px;
     }
     width: 90%;
@@ -22,7 +22,7 @@ section.team{
         color: #252B42;
 
 
-        @include media-sm{
+        @include media-xl{
             /* h2 */
 
              margin: 0 auto;
@@ -44,7 +44,7 @@ section.team{
 
         
 
-        @include media-sm{
+        @include media-xl{
             /* h2 */
             font-family: 'Montserrat';
             font-style: normal;
@@ -81,15 +81,15 @@ section.team{
 
 
     
-        @include media-xll{
+        @include media-xl{
             grid-template-columns: repeat(3, 1fr);
         }
 
-        @include media-lg{
+        @include media-xl{
             grid-template-columns: repeat(2, 1fr);
           
         }
-        @include media-sm{
+        @include media-xl{
             grid-template-columns: repeat(1, 1fr);
          
         }
@@ -115,7 +115,7 @@ section.team{
                 // height: 238px;
                 height: 220px;
 
-                @include media-sm{
+                @include media-xl{
                     height: 300px;
                  
                 }
@@ -150,7 +150,7 @@ section.team{
                     color: #252B42;
                 }
                 .education{
-                    /* small */
+                    /* xlall */
 
                     font-family: 'Montserrat';
                     font-style: normal;

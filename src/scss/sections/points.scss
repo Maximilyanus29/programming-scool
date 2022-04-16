@@ -1,6 +1,6 @@
 section.points{
     margin-top: 180px;
-    @include media-sm{
+    @include media-xl{
         margin-top: 137px;
 
     }
@@ -8,7 +8,7 @@ section.points{
         @include media-xl{
             font-size: 54px;
         }
-        @include media-sm{
+        @include media-xl{
             width: 80%;
             margin: 0 auto;
             font-family: 'Montserrat';
@@ -43,7 +43,7 @@ section.points{
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
 
-        @include media-sm{
+        @include media-xl{
             grid-template-columns: repeat(1, 1fr);
             margin-top: 45px;
             width: 95%;

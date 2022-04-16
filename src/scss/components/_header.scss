@@ -4,7 +4,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	@include media-sm{
+	@include media-xl{
 		margin: auto 10% auto 10%;
 	}
 
@@ -13,13 +13,13 @@ header{
 	nav{
 		display: flex;
 
-		@include media-sm{
+		@include media-xl{
 			width: 100%;
 			justify-content: space-between;
 		}
 
 		.menu-item{
-			@include media-sm{
+			@include media-xl{
 				margin-right: 7px;
 				font-size: 10px;
 

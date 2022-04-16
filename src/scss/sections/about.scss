@@ -1,6 +1,6 @@
 section.about{
     margin-top: 140px;
-    @include media-sm{
+    @include media-xl{
         margin-top: 50px;
     }
 
@@ -9,7 +9,7 @@ section.about{
         @include media-lg{
             font-size: 57px;
         }
-        @include media-sm{
+        @include media-xl{
             font-size: 40px;
             line-height: 44px;
             text-align: left;
@@ -48,7 +48,7 @@ section.about{
 
         justify-content: space-between;
 
-        @include media-sm{
+        @include media-xl{
             flex-direction: column;
             .col1{
                 width: 100%;
@@ -68,7 +68,7 @@ section.about{
 
         &.to_row{
             grid-template-columns: repeat(3, 1fr);
-            @include media-sm{
+            @include media-xl{
                 grid-template-columns: repeat(1, 1fr);
                 gap: 25px;
 
@@ -89,7 +89,7 @@ section.about{
         //     grid-template-columns: repeat(2, 1fr);
         // }
 
-        // @include media-sm{
+        // @include media-xl{
         //     grid-template-columns: repeat(1, 1fr);
         //     gap: 2%;
             
@@ -100,7 +100,7 @@ section.about{
             // width: 26%;
                 margin-bottom: 40px;
 
-            @include media-sm{
+            @include media-xl{
                 margin-left: 5%;
 
                 // height: auto;
@@ -125,7 +125,7 @@ section.about{
     
                 color: #4F46BA;
 
-                @include media-sm{
+                @include media-xl{
                     font-size: 20px;
                     line-height: 16px;
                 }
@@ -144,7 +144,7 @@ section.about{
             }
             .description{
 
-                @include media-sm{
+                @include media-xl{
                     font-size: 12px;
                     line-height: 16px;
                 }

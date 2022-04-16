@@ -3,7 +3,7 @@ section.cost{
     margin-bottom: 288px;
     position: relative;
     width: 85%;
-    @include media-sm{
+    @include media-xl{
         margin-top: 207px;
 
         margin-bottom: 30px;
@@ -24,7 +24,7 @@ section.cost{
     }
 
     .description{
-        @include media-sm{
+        @include media-xl{
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
@@ -76,7 +76,7 @@ section.cost{
                 @include media-xl{
                     font-size: 33px;
                 }
-                @include media-sm{
+                @include media-xl{
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 700;
@@ -175,7 +175,7 @@ section.cost{
         height: 68px;
         border: none;
 
-        @include media-sm{
+        @include media-xl{
             width: 100%;
 
         }

@@ -23,13 +23,13 @@
     width: 30%;
     transform: translate(-50%, -50%);
 	border-radius: 5px;
-	@include media-sm{
+	@include media-xl{
 		width: 90%;
 	}
 	.img{
 		position: relative;
 		height: 230px;
-		@include media-sm{
+		@include media-xl{
 			height: 160px;
 		}
 		img{
@@ -48,11 +48,11 @@
 		padding: 10px 30px 71px 30px;
 		background-color: #FFFFFF;
 
-		@include media-sm{
+		@include media-xl{
 			padding: 10px 30px 30px 30px;
 		}
 		.question_title{
-			@include media-sm{
+			@include media-xl{
 				font-size: 25px;
 				line-height: 23px;
 			}
@@ -68,7 +68,7 @@
 		}
 		p{
 
-			@include media-sm{
+			@include media-xl{
 				font-size: 11px;
 				line-height: 20px;
 			}
@@ -92,7 +92,7 @@
 			display: flex;
 			flex-direction: column;
 
-			@include media-sm{
+			@include media-xl{
 				margin-top: 0;
 
 			}
@@ -106,7 +106,7 @@
 			}
 
 			button[type=submit]{
-				@include media-sm{
+				@include media-xl{
 					width: 100%;
 				}
 

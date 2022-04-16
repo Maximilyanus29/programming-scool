@@ -2,7 +2,7 @@ section.assignments{
     z-index: 3;
     margin-top: 148px;
             
-    @include media-sm{
+    @include media-xl{
         margin-top: 100px;
     }
     position: relative;
@@ -11,7 +11,7 @@ section.assignments{
         width: 90%;
         margin: 0 auto;
         h2{
-            @include media-sm{
+            @include media-xl{
                 font-size:  33px;
                 margin: auto;
 
@@ -30,7 +30,7 @@ section.assignments{
             color: #252B42;
         }
         p{
-            @include media-sm{
+            @include media-xl{
                 font-size:  12px;
                 margin: auto;
              
@@ -61,7 +61,7 @@ section.assignments{
             grid-template-columns: repeat(2, 1fr);
         }
 
-        @include media-sm{
+        @include media-xl{
             margin-top: 31px;
 
             grid-template-columns: repeat(1, 1fr);
@@ -88,11 +88,11 @@ section.assignments{
                     height: 370px;
                 }
         
-                @include media-lg{
+                @include media-xl{
                     height: 230px;
                 }
         
-                @include media-sm{
+                @include media-xl{
                     height: 250px;
                 }
         
@@ -128,7 +128,7 @@ section.assignments{
                 }
         
                 
-                @include media-sm{
+                @include media-xl{
                     height: auto;
                 }
         
@@ -330,7 +330,7 @@ section.assignments{
     // Всякие круглишки
     .ellipse1{
                 
-        @include media-sm{
+        @include media-xl{
             display: none;
          
         }
