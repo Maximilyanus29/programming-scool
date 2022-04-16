@@ -499,9 +499,9 @@ include "header.php"
 						<img src="img/Полина-Домрачева.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Полина Домрачева</div>
+						<div class="education">Организатор</div>
+						<div class="profession"></div>
 					</div>
 				</div>
 
@@ -510,9 +510,9 @@ include "header.php"
 						<img src="img/Ксения-Блюдёнова.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Ксения Блюденова</div>
+						<div class="education">МГТУ им. Баумана</div>
+						<div class="profession">Web-дизайн, Рисование в стиле Аниме</div>
 					</div>
 				</div>
 
@@ -521,9 +521,9 @@ include "header.php"
 						<img src="img/Роман-Семенов.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Роман Семенов</div>
+						<div class="education">Московский политех</div>
+						<div class="profession">Minecraft, Python</div>
 					</div>
 				</div>
 
@@ -532,9 +532,9 @@ include "header.php"
 						<img src="img/Виктория-Боровикова.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Виктория Боровикова</div>
+						<div class="education">Директор по работе с клиентами Siemens MBA, The Open University</div>
+						<div class="profession">Основы бизнеса</div>
 					</div>
 				</div>
 
@@ -543,9 +543,9 @@ include "header.php"
 						<img src="img/Мария-Боброва.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Мария Боброва</div>
+						<div class="education">МГТУ им. Баумана</div>
+						<div class="profession">Digital art, 3D моделирование в Blender</div>
 					</div>
 				</div>
 
@@ -554,9 +554,9 @@ include "header.php"
 						<img src="img/Амина-Евлоева.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Амина Евлоева</div>
+						<div class="education">МГТУ им. Баумана</div>
+						<div class="profession">Компьютерная грамотность, математика</div>
 					</div>
 				</div>
 
@@ -565,9 +565,10 @@ include "header.php"
 						<img src="img/Семен-Федонов.jpg" alt="">
 					</div>
 					<div class="description">
-						<div class="name">Мария Агалакова</div>
-						<div class="education">Физфак МГУ им. Ломоносова</div>
-						<div class="profession">Minecraft, Roblox, математика</div>
+						<div class="name">Семен Федонов</div>
+						<div class="education">МГТУ им. Баумана,
+							Победитель Олимпиад по астрономии</div>
+						<div class="profession">Создание 3D игры в Unity + освоение космоса</div>
 					</div>
 				</div>
 
