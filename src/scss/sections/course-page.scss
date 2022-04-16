@@ -1,6 +1,9 @@
 section.course-page{
     width: 92%;
     margin: 120px auto auto auto;
+    @include media-xl{
+        margin: auto;
+    }
     p{
         margin: auto;
     }
@@ -9,7 +12,17 @@ section.course-page{
         display: flex;
         background: #FFFFFF;
         box-shadow: inset 2px 2px 8px 4px rgba(0, 0, 0, 0.25);
+        @include media-xl{
+            flex-direction: column;
+        }
         .text{
+            @include media-xl{
+                width: 100%;
+                order: 2;
+                padding: 25px;
+
+            }
+            order: 1;
             padding: 45px 0  0 84px;
             width: 50%;
             .age{
@@ -27,6 +40,15 @@ section.course-page{
                 color: #4F46BA;
             }
             .title{
+                @include media-xl{
+                    font-size: 16px;
+                    line-height: 24px;
+                    
+    
+                }
+
+
+
                 margin: 15px 0;
                 font-family: 'Manrope';
                 font-style: normal;
@@ -56,9 +78,13 @@ section.course-page{
                 display: flex;
                 // height: 33px;
                 .img{
+                    order: 1;
+
                     position: relative;
                     width: 13px;
                     height: auto;
+
+           
 
 
                     img{
@@ -75,6 +101,7 @@ section.course-page{
 
                 }
                 .text-location{
+                    order: 2;
 
                     display: flex;
                     // flex-direction: column;
@@ -130,9 +157,7 @@ section.course-page{
                 font-size: 14px;
                 line-height: 19px;
                 text-align: center;
-                @include media-lg{
-                    display: none;
-                }
+
         
                 color: #FFFFFF;
                 img{
@@ -149,6 +174,13 @@ section.course-page{
             }
         }
         .img{
+            @include media-xl{
+                order: 1;
+                width: 100%;
+
+            }
+            order: 2;
+
             width: 50%;
         }
     }
@@ -159,8 +191,18 @@ section.course-page{
     text-align: center;
     width: 86%;
     margin: 74px auto auto auto;
+    @include media-xl{
+        flex-direction: column;
+    }
     .item{
         margin: 0 32.5px;
+        @include media-xl{
+            margin: auto;
+            margin: 30px 32.5px;
+
+        }
+
+        
         &.col1{
             width: 292px;
         }
@@ -170,6 +212,17 @@ section.course-page{
         &.col3{
             width: 305px;
         }
+        @include media-xl{
+            &.col1{
+                width: 80%;
+            }
+            &.col2{
+                width: 90%;
+            }
+            &.col3{
+                width: 80%;
+            }
+        }
         .title{
             font-family: 'Montserrat';
             font-style: normal;
@@ -177,12 +230,30 @@ section.course-page{
             font-size: 40px;
             line-height: 80px;
             /* identical to box height, or 200% */
-    
             letter-spacing: 0.2px;
-    
             color: #4F46BA;
+            @include media-xl{
+                margin: auto;
+                line-height: 44px;
+            }
+
+            &.sm{
+                display: none;
+                @include media-xl{
+                    display: block;
+
+                }
+            }
+            &.xl{
+                display: block;
+                @include media-xl{
+                    display: none;
+
+                }
+            }
         }
         .description{
+
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 500;
@@ -194,6 +265,13 @@ section.course-page{
             letter-spacing: 0.1px;
     
             color: #252B42;
+
+            @include media-xl{
+                font-size: 16px;
+                line-height: 20px;
+                // margin: auto;
+            }
+
             
     
         }
@@ -203,10 +281,16 @@ section.course-page{
 }
 
 section.description{
-    margin-top: 100px;
 
+    width: 90%;
+    margin: 100px auto auto auto;
 
+    @include media-xl{
+        width: 81%;
+        margin: auto;
+    }
     h2{
+
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -217,6 +301,12 @@ section.description{
         letter-spacing: 0.1px;
 
         color: #000000;
+
+        @include media-xl{
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 30px;
+        }
     }
     ul{
         padding-left: 26px;
@@ -232,12 +322,29 @@ section.description{
 
         color: #252B42;
 
+        @include media-xl{
+            padding-left: 0;
+
+        }
+
     }
 
     .row{
         margin-top: 60px;
         display: flex;
+
+        @include media-xl{
+            flex-direction: column;
+        }
+
+
         h3{
+            @include media-xl{
+                width: 103%;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 60px;
+            }
             width: 50%;
             font-family: 'Montserrat';
             font-style: normal;
@@ -252,6 +359,13 @@ section.description{
         }
         ul{
             width: 80%;
+            @include media-xl{
+                margin-top: 15px;
+                width: 100%;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 0 25px;
+            }
 
         }
     }
@@ -259,20 +373,56 @@ section.description{
     .row2{
         margin-top: 100px;
         margin-bottom: 200px;
-        h3{
-            font-family: 'Montserrat';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 36px;
-            line-height: 46px;
-            width: 50%;
+        h2{
+            @include media-xl{
+                width: 116%;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 26px;
+                line-height: 30px;
+                /* or 115% */
+                margin-left: -20px;
+                
+                letter-spacing: 0.1px;
+                
+                color: #000000;
+            }
 
-            /* or 128% */
 
-            letter-spacing: 0.1px;
-
-            color: #252B42;
         }
+        .row{
+
+            @include media-xl{
+                width: 116%;
+                margin-left: -20px;
+
+            }
+            h3{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 36px;
+                line-height: 46px;
+                width: 50%;
+    
+                /* or 128% */
+    
+                letter-spacing: 0.1px;
+    
+                color: #252B42;
+    
+                @include media-xl{
+                    width: 100%;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 46px;
+                 
+                }
+            }
+
+        }
+        
     }
 
 
