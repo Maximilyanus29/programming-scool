@@ -1,9 +1,12 @@
 section.team{
     margin-top: 224px;
+    width: 80%;
     @include media-xl{
         margin-top: 117px;
+        width: 90%;
+
     }
-    width: 90%;
+
 
     position: relative;
     h2{
@@ -113,7 +116,7 @@ section.team{
             .img{
                 position: relative;
                 // height: 238px;
-                height: 220px;
+                height: 260px;
 
                 @include media-xl{
                     height: 300px;

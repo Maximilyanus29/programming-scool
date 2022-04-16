@@ -1,63 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>123</title>
-<script defer src="./js/vendors-node_modules_html-loader_dist_runtime_getUrl_js-node_modules_normalize_css_normalize_-abc2f4.js"></script><script defer src="./js/main.js"></script><link href="./css/vendors-node_modules_html-loader_dist_runtime_getUrl_js-node_modules_normalize_css_normalize_-abc2f4.css" rel="stylesheet"><link href="./css/main.css" rel="stylesheet"></head>
-<body>
-	<div class="overlay" id="overlay"></div>
+<?php 
+include "header.php"
+?>
 
-	<!-- <div class="background-gradient"></div> -->
-	<!-- <div class="background-gradient2"></div> -->
-	<div class="wrapper container-gradient-width">
-		<header>
-
-			<nav>
-				<div class="menu-item">
-					<span class="title"><a href="#points">Смены <img src="img/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-
-				<div class="menu-item">
-					<span class="title"><a href="#team">Адреса <img src="img/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-
-				<div class="menu-item">
-					<span class="title"><a href="#assginments">Команда <img src="img/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-
-				<div class="menu-item">
-					<span class="title"><a href="#cost">Стоимость  <img src="img/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-			</nav>
-
-			<div class="button-block">
-				<a class="phone-number" href="https://wa.me/84951064600"><img class="icon" src="img/coolicon.svg" alt="">8 495 106 46 00</a>
-	
-				
-				<button class="sign-up open-modal">Записаться</button>
-			</div>
-		</header>
 		<section class="course-page">
 
 			<div class="welcome">
@@ -67,13 +11,12 @@
 					<p class="description">В результате занятий дети создадут командный проект в общем<br> мире Minecraft, изучат базовые понятия программирования<br> и разберут важные темы математики в игровой форме.</p>
 					<div class="location">
 						<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
-						<div class="text-location">м Спортивная, ул. Хамовнический вал, 12
-							<br>м Ленинский проспект, Ленинский проспект, 38А</div>
+						<div class="text-location">м. Спортивная, Ленинский проспект</div>
 					</div>
-					<p class="date">21r1d</p>
+					<p class="date">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
 					<button class="button open-modal">Записаться <img src="img/Vector 9.svg" alt=""></button>
 				</div>
-				<div class="img"><img src="img/photo4.jpg" alt=""></div>
+				<div class="img"><img src="img/photo2.jpg" alt=""></div>
 			</div>
 		</section>
 
@@ -101,7 +44,7 @@
 			<div class="row1">
 				<h2>Как проходит обучение программированию?</h2>
 				<ul class="sub_header">
-					<li>Дети составляют простую визуальную программу из блоков, похожих на разноцветные кирпичики  в обучающем редакторе, разработанном компанией Microsoft.</li>
+					<li>Дети составляют простую визуальную программу из блоков, похожих на разноцветные кирпичики в обучающем редакторе, разработанном компанией Microsoft.</li>
 					<li>Составленная программа задает действия специальному агенту, который выполняет алгоритм внутри любимой игры Minecraft (например, строит забор, дом, ферму).</li>
 					<li>Дети работают в общем мире Minecraft и составляют вместе командный проект.</li>
 					<li>В итоге каждый ребенок делает свою постройку и получается общий город.</li>
@@ -123,7 +66,7 @@
 				
 				<ul class="sub_header">
 					<li>Каждый день дети проходят увлекательный квест на тему любимых игр Minecraft и Roblox.</li>
-					<li>Обучение включает в себя работу со обучающими пособиями, головоломками, творческими заданиями  и выполнение специальных заданий на платформе учи.ру</li>
+					<li>Обучение включает в себя работу со обучающими пособиями, головоломками, творческими заданиями и выполнение специальных заданий на платформе учи.ру</li>
 				</ul>
 				<div class="row">
 					<h3>Какие темы входят в программу?</h3>
@@ -146,19 +89,7 @@
 
 	</div>
 
-	<div class="modal" id="modal">
 
-		<div class="img"><img src="img/unsplash_e5sTz361Jzg.png" alt=""></div>
-		<div class="description">
-			<div class="question_title">Введите номер телефона</div>
-			<p>Алминистратор свяжется с вами, чтобы выбрать для вас лучший курс и ответить на все вопросы</p>
-			<form action="">
-				<input type="text" placeholder="Ваш телефон" name="phone" class="input-phone">
-				<button type="submit">Запрос на звонок</button>
-
-			</form>
-	
-		</div>
-
-	</div>
-</body></html>
+	<?php 
+include "footer.php"
+?>

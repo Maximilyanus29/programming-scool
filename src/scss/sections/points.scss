@@ -5,16 +5,15 @@ section.points{
 
     }
     h2{
+        width: 80%;
+        margin: 0 auto;
         @include media-xl{
-            font-size: 54px;
-        }
-        @include media-xl{
-            width: 80%;
-            margin: 0 auto;
+
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 700;
-            font-size: 64px;
+            font-size: 54px;
+
             line-height: 50px;
             /* identical to box height, or 78% */
             

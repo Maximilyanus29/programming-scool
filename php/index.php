@@ -1,91 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>123</title>
-</head>
-<body>
-	<div class="overlay" id="overlay"></div>
+<?php 
+include "header.php"
+?>
 
-	<!-- <div class="background-gradient"></div> -->
-	<!-- <div class="background-gradient2"></div> -->
-	<div class="wrapper container-gradient-width">
-		<header>
 
-			<nav>
-				<div class="menu-item">
-					<span class="title"><a href="#assignments">Смены <img src="img/svg/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
 
-				<div class="menu-item">
-					<span class="title"><a href="#points">Адреса <img src="img/svg/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-
-				<div class="menu-item">
-					<span class="title"><a href="#team">Команда <img src="img/svg/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-
-				<div class="menu-item">
-					<span class="title"><a href="#cost">Стоимость  <img src="img/svg/Vector 3.svg" alt=""></a></span>
-					<ul>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-						<li><a href="#">gasg</a></li>
-					</ul>
-				</div>
-			</nav>
-
-			<div class="button-block">
-				<a class="phone-number" href="https://wa.me/84951064600"><img class="icon" src="img/svg/coolicon.svg" alt="">8 495 106 46 00</a>
-	
-				
-				<button class="sign-up open-modal">Записаться</button>
-			</div>
-		</header>
 		<section class="main container">
 			<div class="text">
 				<h1>Летние городские лагеря в центре Москвы</h1>
 				<p>программирование, олимпиадная математика, <br>бизнес навыки</p>
-				<button class="open-modal">Записаться <img src="img/svg/Vector 9.svg" alt=""></button>
+				<button class="open-modal">Записаться <img src="img/Vector 9.svg" alt=""></button>
 			</div>
 			<div class="img"><img src="img/main-image.png" alt=""></div>
 			<button class="open-modal xl">Записаться</button>
 		</section>
 		<section class="questions ">
 			<div class="item">
-				<div class="img"><img src="img/svg/coolicon (1).svg" alt=""></div>
+				<div class="img"><img src="img/coolicon (1).svg" alt=""></div>
 				<div class="answer">06.06 - 26.08</div>
 			</div>
 
 			<div class="item">
-				<div class="img"><img src="img/svg/coolicon (2).svg" alt=""></div>
+				<div class="img"><img src="img/coolicon (2).svg" alt=""></div>
 				<div class="answer">понедельник-пятница<br>9.00- 19.00</div>
 			</div>
 
 			<div class="item">
-				<div class="img"><img src="img/svg/coolicon (3).svg" alt=""></div>
+				<div class="img"><img src="img/coolicon (3).svg" alt=""></div>
 				<div class="answer">м. Спортивная<br>м. Ленинский проспект<br>м. Шелепиха<br></div>
 			</div>
 			
 
 			<div class="item">
-				<div class="img"><img src="img/svg/Coil (Traced).svg" alt=""></div>
+				<div class="img"><img src="img/Coil (Traced).svg" alt=""></div>
 				<div class="answer">от 4 000 ₽</div>
 			</div>
 		</section>
@@ -96,14 +42,14 @@
 				<div class="col1">
 					<div class="item">
 						<div class="title">
-							<img src="img/svg/coolicon (4).svg" alt="">
+							<img src="img/coolicon (4).svg" alt="">
 							<div class="text">Возраст</div>
 						</div>
 						<div class="description">Мы приглашаем ребят от 7 до 16 лет провести летний период увлекательно и с пользой. Каждая смена нашего лагеря составлена с учетом возрастных особенностей и основана на самых популярных игровых методиках.</div>
 					</div>
 					<div class="item">
 						<div class="title">
-							<img src="img/svg/coolicon (4).svg" alt="">
+							<img src="img/coolicon (4).svg" alt="">
 							<div class="text">Творчество</div>
 						</div>
 						<div class="description">Дети раскроют свой творческий потенциал, используя современные компьютерные технологии. Кроме того, в каждой смене предусмотрены творческие мастер-классы и досуговые мероприятия.</div>
@@ -114,14 +60,14 @@
 				<div class="col2">
 					<div class="item">
 						<div class="title">
-							<img src="img/svg/coolicon (4).svg" alt="">
+							<img src="img/coolicon (4).svg" alt="">
 							<div class="text">Инфраструктура</div>
 						</div>
 						<div class="description">Наши площадки совмещают в себе все необходимое для комфортного летнего времяпрепровождения: оборудованные для обучения классы, места для досуга, организованное горячее питание, близлежащие парки и детские площадки для прогулок.</div>
 					</div>
 					<div class="item">
 						<div class="title">
-							<img src="img/svg/coolicon (4).svg" alt="">
+							<img src="img/coolicon (4).svg" alt="">
 							<div class="text">Уникальность</div>
 						</div>
 						<div class="description">Мы собрали лучшие обучающие методики для детей в области программирования от ведущей школы программирования CODDY, математическую программу от платформы Uchi.ru и разработали уникальную программу по основам бизнеса для подростков. </div>
@@ -133,7 +79,7 @@
 				<div class="col3">
 					<div class="item">
 						<div class="title">
-							<img src="img/svg/coolicon (4).svg" alt="">
+							<img src="img/coolicon (4).svg" alt="">
 							<div class="text">Развитие</div>
 						</div>
 						<div class="description">Наши ученики развивают математическое мышление, компьютерную грамотность и навыки программирования, необходимые <br>в современном технологичном мире. <br>Для подростков мы подготовили смену по аналогии лучших MBA программ, которая поможет понять бизнес-процессы.</div>
@@ -141,7 +87,7 @@
 
 					<div class="item">
 						<div class="title">
-							<img src="img/svg/coolicon (4).svg" alt="">
+							<img src="img/coolicon (4).svg" alt="">
 							<div class="text">Результат</div>
 						</div>
 						<div class="description">Наша основная задача – создать условия эффективного обучения. Мы стремимся к тому, чтобы все участники лагеря приобрели полезные знания: сделали собственный проект, развили свой потенциал, открыли новые горизонты, получили практические навыки.
@@ -179,20 +125,20 @@
 					</div>
 					<div class="content col1">
 						<p class="age">7-9 лет</p>
-						<a href="#" class="title">Программирование в Minecraft и олимпиадная математика</a>
+						<a href="/minecraft.php" class="title">Программирование в Minecraft и олимпиадная математика</a>
 						<p class="description col1">В результате занятий дети создадут командный проект в общем мире Minecraft, изучат базовые понятия программирования и разберут важные темы математики в игровой форме.
 							Они познакомятся с базовыми принципами программирования: алгоритм, цикл, функция, координаты.
 							Приобретут навыки командной работы. 
 							Разовьют логическое и математическое мышление, раскроют творческий потенциал.
 							</p>
 						<div class="location">
-							<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+							<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 							<div class="text">м. Спортивная, Ленинский проспект</div>
 						</div>
 
 						<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
 
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -202,7 +148,7 @@
 					</div>
 					<div class="content col1">
 						<p class="age">10-12 лет</p>
-						<a href="#" class="title">Программирование в Roblox и олимпиадная математика</a>
+						<a href="/roblox.php" class="title">Программирование в Roblox и олимпиадная математика</a>
 						<p class="description col1">В результате обучения дети изучат программирование на языке LUA, создадут совместный проект и опубликуют его на всемирном портале компании Roblox.
 							А также пройдут важные темы математики в игровой форме.
 							Они сделают первые шаги в одном из самых популярных направлении Game Dev.
@@ -210,11 +156,11 @@
 							Разовьют логическое и математическое мышление и раскроют творческий потенциал.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м. Спортивная</div>
 							</div>
 						<p class="interval">20.06-01.07</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -224,16 +170,16 @@
 					</div>
 					<div class="content col1">
 						<p class="age">7-10 лет</p>
-						<a href="#" class="title">Компьютерная грамотность и математика </a>
+						<a href="/math.php" class="title">Компьютерная грамотность и математика </a>
 						<p class="description col1">Дети познакомятся с устройством компьютера и с основными рабочими программами, применяемые в школьном обучении. Узнают, как безопасно пользоваться интернетом и научатся уверенно пользоваться клавиатурой и мышкой. А также повторят важные разделы математики в игровой форме.
 							Занятия помогут ребенку почувствовать себя более уверенным и самостоятельным, повысят эффективность обучающего процесса в школе и дома.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Хамовники, Ленинский проспект, Шелепиха</div>
 							</div>
 							<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -244,17 +190,17 @@
 					</div>
 					<div class="content col2">
 						<p class="age">12 – 15 лет</p>
-						<a href="#" class="title">Программирование в Python и основы бизнеса</a>
+						<a href="/python.php" class="title">Программирование в Python и основы бизнеса</a>
 						<p class="description col2">В результате комплексного подхода, ребята не только овладеют практическими инструментами современного программиста, но и будут иметь представление о том, как работает бизнес-среда.
 							Они познакомятся со всеми основными темами, которые изучают в современных MBA программах.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Ленинский проспект, Шелепиха
 								</div>
 							</div>
 							<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -264,17 +210,17 @@
 					</div>
 					<div class="content col2">
 						<p class="age">12-15 лет </p>
-						<a href="#" class="title">Web-дизайн и основы бизнеса </a>
+						<a href="/design.php" class="title">Web-дизайн и основы бизнеса </a>
 						<p class="description col2">
 							В результате комплексного подхода, ребята не только овладеют практическими инструментами современного дизайнера, но и будут иметь представление о том, как работает бизнес-среда.
 							Они познакомятся со всеми основными темами, которые изучают в современных MBA программах.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Ленинский проспект</div>
 							</div>
 							<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -284,16 +230,16 @@
 					</div>
 					<div class="content col2">
 						<p class="age">8-12 лет</p>
-						<a href="#" class="title">Digital art: рисование на графическом планшете</a>
+						<a href="/digital.php" class="title">Digital art: рисование на графическом планшете</a>
 						<p class="description col2">Ваш ребенок сделает первые шаги в такой востребованной профессии как графический дизайнер. 
 							Раскроет творческий потенциал, реализуя свои самые смелые идеи, используя современные компьютерные технологии.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Шелепиха</div>
 							</div>
 						<p class="interval">06.06-11.06</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -303,17 +249,17 @@
 					</div>
 					<div class="content col3">
 						<p class="age">12-15 лет</p>
-						<a href="#" class="title">3D моделирование в Blender</a>
+						<a href="/3d.php" class="title">3D моделирование в Blender</a>
 						<p class="description col3">Ребенок познакомится с новым перспективным направлением - 3D моделирование. Создаст собственный проект в популярной программе Blender.
 							Раскроет творческий потенциал, реализуя свои самые смелые идеи и используя современные компьютерные технологии.
 							Познакомится с аддитивными технологиями и получит навыки 3D печати.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Шелепиха</div>
 							</div>
 					<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -323,17 +269,17 @@
 					</div>
 					<div class="content col3">
 						<p class="age">12-15 лет</p>
-						<a href="#" class="title">Создание 3D игры в Unity + освоение космоса </a>
+						<a href="/unity.php" class="title">Создание 3D игры в Unity + освоение космоса </a>
 						<p class="description col3">Ребенок получит практические навыки профессионального разработчика игровых приложений и создаст собственный проект.
 							Узнает о том, какие передовые технологии используются в современной космической отрасли и как они связаны с программированием.
 							Познакомится с перспективами профессионального развития в космической индустрии.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Спортивная</div>
 							</div>
 						<p class="interval">18.07-29.07</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -343,17 +289,17 @@
 					</div>
 					<div class="content col3">
 						<p class="age">10-14 лет</p>
-						<a href="#" class="title">Рисование в стиле Аниме </a>
+						<a href="/anime.php" class="title">Рисование в стиле Аниме </a>
 						<p class="description col3">Ребенок изучит академические основы композиции, колористики, свето-тени. Научится рисовать  пропорции человека, позы в статике, динамике и перспективе. Узнает, как отображать эмоции персонажа.
 							Разовьет креативное мышление и генерацию новых идей.
 							Научится создавать индивидуальные интересные проекты в стиле Аниме.
 							</p>
 							<div class="location">
-								<div class="img"><img src="img/svg/coolicon (5).svg" alt=""></div>
+								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Ленинский проспект</div>
 							</div>
 						<p class="interval">15.08-26.08</p>
-						<button class="open-modal">Узнать подробнее <img src="img/svg/Vector.svg" alt=""></button>
+						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
 
@@ -422,11 +368,11 @@
 							</div>
 						</div>
 						<div class="stars">
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
 						</div>
 						<div class="text">«Спасибо Вам преогромнейшее! Фёдору всё очень нравится! Все преподаватели в школе очень хорошие, добрые и чуткие!»</div>
 					</div>
@@ -440,11 +386,11 @@
 							</div>
 						</div>
 						<div class="stars">
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
 						</div>
 						<div class="text">«Нам все очень понравилось. Ребёнок был счастлив и доволен!»</div>
 					</div>
@@ -459,11 +405,11 @@
 							</div>
 						</div>
 						<div class="stars">
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
 						</div>
 						<div class="text">«Все отлично, все понравилось! Дружелюбная атмосфера на занятиях, понятная и доступная подача материала, все легко усваивалось. Еда хорошая тоже, спасибо большое!»</div>
 					</div>
@@ -479,11 +425,11 @@
 							</div>
 						</div>
 						<div class="stars">
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
 						</div>
 						<div class="text">«От лагеря в восторге. Преподаватели молодые и увлечённые с отличным подходом к детям.»</div>
 					</div>
@@ -497,11 +443,11 @@
 							</div>
 						</div>
 						<div class="stars">
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
 						</div>
 						<div class="text">«Дочке очень все понравилось, просилась ещё на одну смену.»</div>
 					</div>
@@ -516,11 +462,11 @@
 							</div>
 						</div>
 						<div class="stars">
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
-							<span class="star"><img src="img/svg/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
+							<span class="star"><img src="img/star.svg" alt=""></span>
 						</div>
 						<div class="text">«Ребёнок с большим удовольствием посещал занятия. Очень увлекательно и познавательно проходили уроки. Спасибо.»</div>
 					</div>
@@ -539,7 +485,7 @@
 			<div class="teachers">
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Мария Агалакова.jpg" alt="">
+						<img src="img/Мария Агалакова.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -550,7 +496,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Полина-Домрачева.jpg" alt="">
+						<img src="img/Полина-Домрачева.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -561,7 +507,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Ксения-Блюдёнова.jpg" alt="">
+						<img src="img/Ксения-Блюдёнова.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -572,7 +518,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Роман-Семенов.jpg" alt="">
+						<img src="img/Роман-Семенов.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -583,7 +529,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Виктория-Боровикова.jpg" alt="">
+						<img src="img/Виктория-Боровикова.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -594,7 +540,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Мария-Боброва.jpg" alt="">
+						<img src="img/Мария-Боброва.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -605,7 +551,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Амина-Евлоева.jpg" alt="">
+						<img src="img/Амина-Евлоева.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -616,7 +562,7 @@
 
 				<div class="teacher">
 					<div class="img">
-						<img src="img/photos/Семен-Федонов.jpg" alt="">
+						<img src="img/Семен-Федонов.jpg" alt="">
 					</div>
 					<div class="description">
 						<div class="name">Мария Агалакова</div>
@@ -638,17 +584,17 @@
 				<div class="programm">
 					<div class="title">1 день</div>
 					<div class="cost">4 000 ₽</div>
-					<button class="open-modal">Записаться <img src="img/svg/arrow-to-right.svg" alt=""></button>
+					<button class="open-modal">Записаться <img src="img/arrow-to-right.svg" alt=""></button>
 				</div>
 				<div class="programm">
 					<div class="title">1 неделя</div>
 					<div class="cost">22 000 ₽</div>
-					<button class="open-modal">Записаться <img src="img/svg/arrow-to-right.svg" alt=""></button>
+					<button class="open-modal">Записаться <img src="img/arrow-to-right.svg" alt=""></button>
 				</div>
 				<div class="programm">
 					<div class="title">1 смена</div>
 					<div class="cost">39 500 ₽</div>
-					<button class="open-modal">Записаться <img src="img/svg/arrow-to-right.svg" alt=""></button>
+					<button class="open-modal">Записаться <img src="img/arrow-to-right.svg" alt=""></button>
 				</div>
 			</div>
 
@@ -658,21 +604,6 @@
 
 
 
-	<div class="modal" id="modal">
-
-		<div class="img"><img src="img/unsplash_e5sTz361Jzg.png" alt=""></div>
-		<div class="description">
-			<div class="question_title">Введите номер телефона</div>
-			<p>Алминистратор свяжется с вами, чтобы выбрать для вас лучший курс и ответить на все вопросы</p>
-			<form action="">
-				<input type="text" placeholder="Ваш телефон" name="phone" class="input-phone">
-				<button type="submit">Запрос на звонок</button>
-
-			</form>
-	
-		</div>
-
-	</div>
-
-</body>
-</html>
+<?php 
+include "footer.php"
+?>
