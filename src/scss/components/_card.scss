@@ -9,7 +9,7 @@
         height: 300px;
         position: relative;
 
-        @include media-xl{
+        @include media-sm{
             height: 450px;
         }
     
@@ -17,11 +17,11 @@
             height: 370px;
         }
 
-        @include media-lg{
+        @include media-sm{
             height: 230px;
         }
 
-        @include media-xl{
+        @include media-sm{
             height: 250px;
         }
 
@@ -46,7 +46,7 @@
         box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
 
         
-        @include media-xl{
+        @include media-sm{
             height: auto;
         }
 

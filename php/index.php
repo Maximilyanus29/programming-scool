@@ -11,7 +11,7 @@ include "header.php"
 				<button class="open-modal">Записаться <img src="img/Vector 9.svg" alt=""></button>
 			</div>
 			<div class="img"><img src="img/main-image.png" alt=""></div>
-			<button class="open-modal xl">Записаться</button>
+			<button class="open-modal sm">Записаться</button>
 		</section>
 		<section class="questions ">
 			<div class="item">

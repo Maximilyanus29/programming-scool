@@ -1,8 +1,8 @@
 $screen-sm:                   480px;
 $screen-md:                   768px;
 $screen-lg:                   999px;
-$screen-xl:                   1440px;
 $screen-xll:                  1024px;
+$screen-xl:                   1440px;
 
 @mixin media-sm {
   @media (max-width: $screen-sm) {

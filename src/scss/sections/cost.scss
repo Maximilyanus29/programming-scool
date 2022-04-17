@@ -3,7 +3,7 @@ section.cost{
     margin-bottom: 288px;
     position: relative;
     width: 85%;
-    @include media-xl{
+    @include media-sm{
         margin-top: 207px;
 
         margin-bottom: 30px;
@@ -24,7 +24,7 @@ section.cost{
     }
 
     .description{
-        @include media-xl{
+        @include media-sm{
             font-family: 'Montserrat';
             font-style: normal;
             font-weight: 400;
@@ -57,47 +57,40 @@ section.cost{
         display: flex;
         justify-content: space-between;
 
-        @include media-lg{
+        @include media-sm{
             flex-direction: column;
         }
         .programm{
 
-            @include media-lg{
+            @include media-xll{
+
+                padding: 30px;
+  
+            }
+
+            @include media-sm{
                 width: 100%;
                 padding: 40px;
                 margin: 20px 0;
             }
+
+            
             background-color: #FFFFFF;
             width: 33%;
             padding: 40px;
             .title{
                /* h2 */
 
-                @include media-xl{
-                    font-size: 33px;
-                }
-                @include media-xl{
-                    font-family: 'Montserrat';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 40px;
-                    line-height: 50px;
-                    /* identical to box height, or 125% */
-
-                    letter-spacing: 0.2px;
-
-                    color: #252B42;
-                }
                 /* h2 */
 
 
        
             
-                // @include media-xll{
+                // @include media-sml{
                 //     height: 270px;
                 // }
         
-                // @include media-lg{
+                // @include media-sm{
                 //     height: 410px;
                 // }
     
@@ -112,6 +105,29 @@ section.cost{
                 letter-spacing: 0.2px;
 
                 color: #252B42;
+
+
+
+   
+                @include media-sm{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 50px;
+                    /* identical to box height, or 125% */
+
+                    letter-spacing: 0.2px;
+
+                    color: #252B42;
+                }
+
+                                   
+                @include media-md{
+                    font-size: 28px;
+
+                }
+       
             }
             .cost{
                 /* paragraph */
@@ -132,7 +148,7 @@ section.cost{
                 /* link */
                 // width: 170px;
                 margin-top: 28px;
-                // @include media-xl{
+                // @include media-sm{
                 //     font-size: 12px;
                 // }
         
@@ -151,6 +167,10 @@ section.cost{
 
                 img{
                     margin-left:65px;
+                    @include media-md{
+                        margin-left:10px;
+    
+                    }
                 }
             }
 
@@ -175,7 +195,7 @@ section.cost{
         height: 68px;
         border: none;
 
-        @include media-xl{
+        @include media-sm{
             width: 100%;
 
         }

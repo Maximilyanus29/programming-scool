@@ -1,7 +1,7 @@
 section.course-page{
     width: 92%;
     margin: 120px auto auto auto;
-    @include media-xl{
+    @include media-sm{
         margin: auto;
     }
     p{
@@ -12,11 +12,11 @@ section.course-page{
         display: flex;
         background: #FFFFFF;
         box-shadow: inset 2px 2px 8px 4px rgba(0, 0, 0, 0.25);
-        @include media-xl{
+        @include media-xll{
             flex-direction: column;
         }
         .text{
-            @include media-xl{
+            @include media-xll{
                 width: 100%;
                 order: 2;
                 padding: 25px;
@@ -40,7 +40,7 @@ section.course-page{
                 color: #4F46BA;
             }
             .title{
-                @include media-xl{
+                @include media-xll{
                     font-size: 16px;
                     line-height: 24px;
                     
@@ -167,14 +167,14 @@ section.course-page{
                     margin-top: 40px;
                     width: 100%;
                     display: none;
-                    @include media-lg{
+                    @include media-xll{
                         display: block;
                     }
                 }
             }
         }
         .img{
-            @include media-xl{
+            @include media-xll{
                 order: 1;
                 width: 100%;
 
@@ -191,12 +191,12 @@ section.course-page{
     text-align: center;
     width: 86%;
     margin: 74px auto auto auto;
-    @include media-xl{
+    @include media-xll{
         flex-direction: column;
     }
     .item{
         margin: 0 32.5px;
-        @include media-xl{
+        @include media-xll{
             margin: auto;
             margin: 30px 32.5px;
 
@@ -212,7 +212,7 @@ section.course-page{
         &.col3{
             width: 305px;
         }
-        @include media-xl{
+        @include media-xll{
             &.col1{
                 width: 80%;
             }
@@ -232,21 +232,21 @@ section.course-page{
             /* identical to box height, or 200% */
             letter-spacing: 0.2px;
             color: #4F46BA;
-            @include media-xl{
+            @include media-xll{
                 margin: auto;
                 line-height: 44px;
             }
 
             &.sm{
                 display: none;
-                @include media-xl{
+                @include media-xll{
                     display: block;
 
                 }
             }
-            &.xl{
+            &.xll{
                 display: block;
-                @include media-xl{
+                @include media-xll{
                     display: none;
 
                 }
@@ -266,7 +266,7 @@ section.course-page{
     
             color: #252B42;
 
-            @include media-xl{
+            @include media-xll{
                 font-size: 16px;
                 line-height: 20px;
                 // margin: auto;
@@ -285,7 +285,7 @@ section.description{
     width: 90%;
     margin: 100px auto auto auto;
 
-    @include media-xl{
+    @include media-xll{
         width: 81%;
         margin: auto;
     }
@@ -302,7 +302,7 @@ section.description{
 
         color: #000000;
 
-        @include media-xl{
+        @include media-xll{
             font-weight: 600;
             font-size: 26px;
             line-height: 30px;
@@ -322,7 +322,7 @@ section.description{
 
         color: #252B42;
 
-        @include media-xl{
+        @include media-xll{
             padding-left: 0;
 
         }
@@ -333,13 +333,13 @@ section.description{
         margin-top: 60px;
         display: flex;
 
-        @include media-xl{
+        @include media-xll{
             flex-direction: column;
         }
 
 
         h3{
-            @include media-xl{
+            @include media-xll{
                 width: 103%;
                 font-weight: 600;
                 font-size: 48px;
@@ -359,7 +359,7 @@ section.description{
         }
         ul{
             width: 80%;
-            @include media-xl{
+            @include media-xll{
                 margin-top: 15px;
                 width: 100%;
                 font-size: 16px;
@@ -374,7 +374,7 @@ section.description{
         margin-top: 100px;
         margin-bottom: 200px;
         h2{
-            @include media-xl{
+            @include media-xll{
                 width: 116%;
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -393,7 +393,7 @@ section.description{
         }
         .row{
 
-            @include media-xl{
+            @include media-xll{
                 width: 116%;
                 margin-left: -20px;
 
@@ -412,7 +412,7 @@ section.description{
     
                 color: #252B42;
     
-                @include media-xl{
+                @include media-xll{
                     width: 100%;
                     font-weight: 600;
                     font-size: 36px;

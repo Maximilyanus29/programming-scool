@@ -175,14 +175,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     header {
       margin: auto 10% auto 10%; } }
   header nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       header nav {
         width: 100%;
         -webkit-box-pack: justify;
@@ -198,7 +198,7 @@ header {
       text-align: center;
       color: #252B42;
       margin-right: 40px; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         header nav .menu-item {
           margin-right: 7px;
           font-size: 10px; } }
@@ -207,13 +207,13 @@ header {
         text-decoration: none; }
         header nav .menu-item a img {
           margin-left: 12px; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         header nav .menu-item {
           margin-right: 70px; } }
-      @media (max-width: 999px) {
+      @media (max-width: 480px) {
         header nav .menu-item {
           margin-right: 10px; } }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         header nav .menu-item .title img {
           display: none; } }
       header nav .menu-item ul {
@@ -252,7 +252,7 @@ header {
       /* identical to box height */
       text-align: center;
       color: #FFFFFF; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       header .button-block {
         display: none; } }
 
@@ -279,13 +279,13 @@ header {
   border-radius: 5px; }
   .modal.show {
     display: block; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     .modal {
       width: 90%; } }
   .modal .img {
     position: relative;
     height: 230px; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       .modal .img {
         height: 160px; } }
     .modal .img img {
@@ -301,7 +301,7 @@ header {
     border-radius: 5px;
     padding: 10px 30px 71px 30px;
     background-color: #FFFFFF; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       .modal .description {
         padding: 10px 30px 30px 30px; } }
     .modal .description .question_title {
@@ -311,7 +311,7 @@ header {
       font-size: 45px;
       line-height: 50px;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         .modal .description .question_title {
           font-size: 25px;
           line-height: 23px; } }
@@ -324,7 +324,7 @@ header {
       /* or 87% */
       letter-spacing: 0.2px;
       color: #737373; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         .modal .description p {
           font-size: 11px;
           line-height: 20px; } }
@@ -337,7 +337,7 @@ header {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         .modal .description form {
           margin-top: 0; } }
       .modal .description form .input-phone {
@@ -358,7 +358,7 @@ header {
         font-size: 14px;
         line-height: 19px;
         color: #FFFFFF; }
-        @media (max-width: 1440px) {
+        @media (max-width: 480px) {
           .modal .description form button[type=submit] {
             width: 100%; } }
 
@@ -369,10 +369,10 @@ section.main {
   margin-top: 60px;
   margin-bottom: 100px;
   /* Heading */ }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.main {
       margin-top: auto; } }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.main {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -380,7 +380,7 @@ section.main {
               flex-direction: column; } }
   section.main .text {
     width: 50%; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.main .text {
         width: 100%; } }
     section.main .text h1 {
@@ -388,7 +388,7 @@ section.main {
       margin: auto;
       font-size: 46px;
       line-height: 52px; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         section.main .text h1 {
           width: 100%;
           font-family: 'Manrope';
@@ -421,18 +421,18 @@ section.main {
     line-height: 19px;
     text-align: center;
     color: #FFFFFF; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.main button {
         display: none; } }
     section.main button img {
       margin-left: 35px; }
-    section.main button.xl {
+    section.main button.sm {
       margin-top: 40px;
       height: 56px;
       width: 100%;
       display: none; }
-      @media (max-width: 1440px) {
-        section.main button.xl {
+      @media (max-width: 480px) {
+        section.main button.sm {
           display: block; } }
   section.main .img {
     display: -webkit-box;
@@ -442,7 +442,7 @@ section.main {
         -ms-flex-align: center;
             align-items: center;
     width: 50%; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.main .img {
         width: 100%; } }
 
@@ -456,7 +456,15 @@ section.questions {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 1084px; }
-  @media (max-width: 1440px) {
+  @media (max-width: 768px) {
+    section.questions {
+      margin-top: 92px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 40px; } }
+  @media (max-width: 1024px) {
     section.questions {
       margin-top: 92px;
       width: 100%;
@@ -484,7 +492,7 @@ section.questions {
       /* identical to box height */
       text-align: center;
       color: #4F46BA; }
-      @media (max-width: 1440px) {
+      @media (max-width: 768px) {
         section.questions .item .question {
           font-size: 20px;
           line-height: 14px; } }
@@ -498,14 +506,14 @@ section.questions {
       /* identical to box height, or 144% */
       text-align: center;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 768px) {
         section.questions .item .answer {
           font-size: 16px;
           line-height: 20px; } }
 
 section.about {
   margin-top: 140px; }
-  @media (max-width: 1440px) {
+  @media (max-width: 768px) {
     section.about {
       margin-top: 50px; } }
   section.about h2 {
@@ -517,10 +525,10 @@ section.about {
     text-shadow: 3px 3px 3px rgba(255, 255, 127, 0.33);
     -webkit-background-clip: text;
             background-clip: text; }
-    @media (max-width: 999px) {
+    @media (max-width: 768px) {
       section.about h2 {
         font-size: 57px; } }
-    @media (max-width: 1440px) {
+    @media (max-width: 768px) {
       section.about h2 {
         font-size: 40px;
         line-height: 44px;
@@ -542,21 +550,84 @@ section.about {
       width: 389px; }
     section.about .about-items .col3 {
       width: 376px; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.about .about-items {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column; }
         section.about .about-items .col1 {
-          width: 100%; }
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          section.about .about-items .col1 .item {
+            width: 50%; }
         section.about .about-items .col2 {
-          width: 100%; }
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          section.about .about-items .col2 .item {
+            width: 50%; }
         section.about .about-items .col3 {
-          width: 100%; } }
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          section.about .about-items .col3 .item {
+            width: 50%; } }
+    @media (max-width: 768px) {
+      section.about .about-items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        section.about .about-items .col1 {
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          section.about .about-items .col1 .item {
+            width: 50%; }
+        section.about .about-items .col2 {
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          section.about .about-items .col2 .item {
+            width: 50%; }
+        section.about .about-items .col3 {
+          width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          section.about .about-items .col3 .item {
+            width: 50%; } }
+    @media (max-width: 480px) {
+      section.about .about-items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        section.about .about-items .col1 {
+          width: 100%;
+          display: block; }
+          section.about .about-items .col1 .item {
+            width: 100%; }
+        section.about .about-items .col2 {
+          width: 100%;
+          display: block; }
+          section.about .about-items .col2 .item {
+            width: 100%; }
+        section.about .about-items .col3 {
+          width: 100%;
+          display: block; }
+          section.about .about-items .col3 .item {
+            width: 100%; } }
     section.about .about-items.to_row {
       grid-template-columns: repeat(3, 1fr); }
-      @media (max-width: 1440px) {
+      @media (max-width: 768px) {
         section.about .about-items.to_row {
           grid-template-columns: repeat(1, 1fr);
           gap: 25px; } }
@@ -564,7 +635,7 @@ section.about {
         font-size: 27px; }
     section.about .about-items .item {
       margin-bottom: 40px; }
-      @media (max-width: 1440px) {
+      @media (max-width: 768px) {
         section.about .about-items .item {
           margin-left: 5%; } }
       section.about .about-items .item .title {
@@ -582,7 +653,7 @@ section.about {
         color: #4F46BA; }
         section.about .about-items .item .title img {
           margin-right: 9px; }
-        @media (max-width: 1440px) {
+        @media (max-width: 768px) {
           section.about .about-items .item .title {
             font-size: 20px;
             line-height: 16px; } }
@@ -596,7 +667,7 @@ section.about {
         /* or 150% */
         letter-spacing: 0.1px;
         color: #252B42; }
-        @media (max-width: 1440px) {
+        @media (max-width: 768px) {
           section.about .about-items .item .description {
             font-size: 12px;
             line-height: 16px; } }
@@ -605,7 +676,7 @@ section.assignments {
   z-index: 3;
   margin-top: 148px;
   position: relative; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.assignments {
       margin-top: 100px; } }
   section.assignments .titles {
@@ -622,7 +693,7 @@ section.assignments {
       /* identical to box height, or 78% */
       letter-spacing: 0.2px;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         section.assignments .titles h2 {
           font-size: 33px;
           margin: auto; } }
@@ -635,7 +706,7 @@ section.assignments {
       /* identical to box height, or 145% */
       letter-spacing: 0.01em;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 480px) {
         section.assignments .titles p {
           font-size: 12px;
           margin: auto; } }
@@ -647,10 +718,11 @@ section.assignments {
     grid-gap: 47px;
     gap: 47px;
     grid-template-columns: repeat(3, 1fr); }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.assignments .card-wrap {
+        margin-top: 31px;
         grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 1440px) {
+    @media (max-width: 768px) {
       section.assignments .card-wrap {
         margin-top: 31px;
         grid-template-columns: repeat(1, 1fr); } }
@@ -661,16 +733,10 @@ section.assignments {
         width: 100%;
         height: 300px;
         position: relative; }
-        @media (max-width: 1440px) {
+        @media (max-width: 768px) {
           section.assignments .card-wrap .card .img {
             height: 450px; } }
-        @media (max-width: 1024px) {
-          section.assignments .card-wrap .card .img {
-            height: 370px; } }
-        @media (max-width: 1440px) {
-          section.assignments .card-wrap .card .img {
-            height: 230px; } }
-        @media (max-width: 1440px) {
+        @media (max-width: 480px) {
           section.assignments .card-wrap .card .img {
             height: 250px; } }
         section.assignments .card-wrap .card .img img {
@@ -692,7 +758,7 @@ section.assignments {
           height: 500px; }
         section.assignments .card-wrap .card .content.col3 {
           height: 500px; }
-        @media (max-width: 1440px) {
+        @media (max-width: 480px) {
           section.assignments .card-wrap .card .content {
             height: auto; } }
         section.assignments .card-wrap .card .content .age {
@@ -859,7 +925,7 @@ section.assignments {
     top: 45px;
     background: #FFC223;
     border-radius: 100%; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.assignments .ellipse1 {
         display: none; } }
   section.assignments .ellipse2 {
@@ -929,7 +995,7 @@ section.assignments {
 
 section.points {
   margin-top: 180px; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.points {
       margin-top: 137px; } }
   section.points h2 {
@@ -943,7 +1009,7 @@ section.points {
     /* identical to box height, or 78% */
     letter-spacing: 0.2px;
     color: #252B42; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.points h2 {
         font-family: 'Montserrat';
         font-style: normal;
@@ -961,7 +1027,12 @@ section.points {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     gap: 20px; }
-    @media (max-width: 1440px) {
+    @media (max-width: 768px) {
+      section.points .card-points {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 45px;
+        width: 95%; } }
+    @media (max-width: 480px) {
       section.points .card-points {
         grid-template-columns: repeat(1, 1fr);
         margin-top: 45px;
@@ -1004,7 +1075,7 @@ section.points {
 section.reviews {
   margin-top: 196px;
   position: relative; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.reviews {
       margin-top: 30px; } }
   section.reviews h2 {
@@ -1018,7 +1089,7 @@ section.reviews {
     /* identical to box height, or 125% */
     letter-spacing: 0.2px;
     color: #252B42; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.reviews h2 {
         /* h2 */
         width: 90%;
@@ -1090,7 +1161,7 @@ section.reviews {
       background: -webkit-gradient(linear, left top, right top, from(#eee9fe), color-stop(rgba(255,255,255,0.18824)), to(#eee9fe));
       background: linear-gradient(90deg, #eee9fe, rgba(255,255,255,0.18824), #eee9fe);
       z-index: 2; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.reviews .reviews {
         margin-top: 30px; } }
     section.reviews .reviews .review {
@@ -1204,7 +1275,7 @@ section.reviews {
     -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
             transform: matrix(-1, 0, 0, 1, 0, 0);
     border-radius: 100%; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.reviews .ellipse2 {
         display: none; } }
 
@@ -1212,7 +1283,7 @@ section.team {
   margin-top: 224px;
   width: 80%;
   position: relative; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.team {
       margin-top: 117px;
       width: 90%; } }
@@ -1227,7 +1298,7 @@ section.team {
     /* identical to box height, or 125% */
     letter-spacing: 0.2px;
     color: #252B42; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.team h2 {
         /* h2 */
         margin: 0 auto;
@@ -1249,7 +1320,7 @@ section.team {
     /* or 143% */
     letter-spacing: 0.2px;
     color: #737373; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.team .description {
         /* h2 */
         font-family: 'Montserrat';
@@ -1269,13 +1340,10 @@ section.team {
     grid-gap: 34px;
     gap: 34px;
     margin-bottom: 21px; }
-    @media (max-width: 1440px) {
-      section.team .teachers {
-        grid-template-columns: repeat(3, 1fr); } }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.team .teachers {
         grid-template-columns: repeat(2, 1fr); } }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.team .teachers {
         grid-template-columns: repeat(1, 1fr); } }
     section.team .teachers .teacher {
@@ -1287,7 +1355,7 @@ section.team {
       section.team .teachers .teacher .img {
         position: relative;
         height: 260px; }
-        @media (max-width: 1440px) {
+        @media (max-width: 480px) {
           section.team .teachers .teacher .img {
             height: 300px; } }
         section.team .teachers .teacher .img img {
@@ -1312,7 +1380,7 @@ section.team {
           letter-spacing: 0.1px;
           color: #252B42; }
         section.team .teachers .teacher .description .education {
-          /* xlall */
+          /* small */
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 400;
@@ -1339,7 +1407,7 @@ section.cost {
   margin-bottom: 288px;
   position: relative;
   width: 85%; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.cost {
       margin-top: 207px;
       margin-bottom: 30px; } }
@@ -1365,7 +1433,7 @@ section.cost {
     /* or 143% */
     letter-spacing: 0.2px;
     color: #737373; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.cost .description {
         font-family: 'Montserrat';
         font-style: normal;
@@ -1383,7 +1451,7 @@ section.cost {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-    @media (max-width: 999px) {
+    @media (max-width: 480px) {
       section.cost .programms {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1393,7 +1461,10 @@ section.cost {
       background-color: #FFFFFF;
       width: 33%;
       padding: 40px; }
-      @media (max-width: 999px) {
+      @media (max-width: 1024px) {
+        section.cost .programms .programm {
+          padding: 30px; } }
+      @media (max-width: 480px) {
         section.cost .programms .programm {
           width: 100%;
           padding: 40px;
@@ -1409,10 +1480,7 @@ section.cost {
         /* identical to box height, or 125% */
         letter-spacing: 0.2px;
         color: #252B42; }
-        @media (max-width: 1440px) {
-          section.cost .programms .programm .title {
-            font-size: 33px; } }
-        @media (max-width: 1440px) {
+        @media (max-width: 480px) {
           section.cost .programms .programm .title {
             font-family: 'Montserrat';
             font-style: normal;
@@ -1422,6 +1490,9 @@ section.cost {
             /* identical to box height, or 125% */
             letter-spacing: 0.2px;
             color: #252B42; } }
+        @media (max-width: 768px) {
+          section.cost .programms .programm .title {
+            font-size: 28px; } }
       section.cost .programms .programm .cost {
         /* paragraph */
         margin-top: 28px;
@@ -1448,6 +1519,9 @@ section.cost {
         background-color: transparent; }
         section.cost .programms .programm button img {
           margin-left: 65px; }
+          @media (max-width: 768px) {
+            section.cost .programms .programm button img {
+              margin-left: 10px; } }
   section.cost .button {
     margin-top: 76px;
     background: #4F46BA;
@@ -1462,14 +1536,14 @@ section.cost {
     width: 269px;
     height: 68px;
     border: none; }
-    @media (max-width: 1440px) {
+    @media (max-width: 480px) {
       section.cost .button {
         width: 100%; } }
 
 section.course-page {
   width: 92%;
   margin: 120px auto auto auto; }
-  @media (max-width: 1440px) {
+  @media (max-width: 480px) {
     section.course-page {
       margin: auto; } }
   section.course-page p {
@@ -1481,7 +1555,7 @@ section.course-page {
     background: #FFFFFF;
     -webkit-box-shadow: inset 2px 2px 8px 4px rgba(0, 0, 0, 0.25);
             box-shadow: inset 2px 2px 8px 4px rgba(0, 0, 0, 0.25); }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.course-page .welcome {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1493,7 +1567,7 @@ section.course-page {
               order: 1;
       padding: 45px 0  0 84px;
       width: 50%; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         section.course-page .welcome .text {
           width: 100%;
           -webkit-box-ordinal-group: 3;
@@ -1519,7 +1593,7 @@ section.course-page {
         line-height: 44px;
         /* or 122% */
         color: #252B42; }
-        @media (max-width: 1440px) {
+        @media (max-width: 1024px) {
           section.course-page .welcome .text .title {
             font-size: 16px;
             line-height: 24px; } }
@@ -1606,7 +1680,7 @@ section.course-page {
           margin-top: 40px;
           width: 100%;
           display: none; }
-          @media (max-width: 999px) {
+          @media (max-width: 1024px) {
             section.course-page .welcome .text button.sm {
               display: block; } }
     section.course-page .welcome .img {
@@ -1614,7 +1688,7 @@ section.course-page {
           -ms-flex-order: 2;
               order: 2;
       width: 50%; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         section.course-page .welcome .img {
           -webkit-box-ordinal-group: 2;
               -ms-flex-order: 1;
@@ -1628,7 +1702,7 @@ section.course-page {
   text-align: center;
   width: 86%;
   margin: 74px auto auto auto; }
-  @media (max-width: 1440px) {
+  @media (max-width: 1024px) {
     .benefits {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -1636,7 +1710,7 @@ section.course-page {
               flex-direction: column; } }
   .benefits .item {
     margin: 0 32.5px; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       .benefits .item {
         margin: auto;
         margin: 30px 32.5px; } }
@@ -1646,7 +1720,7 @@ section.course-page {
       width: 420px; }
     .benefits .item.col3 {
       width: 305px; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       .benefits .item.col1 {
         width: 80%; }
       .benefits .item.col2 {
@@ -1662,19 +1736,19 @@ section.course-page {
       /* identical to box height, or 200% */
       letter-spacing: 0.2px;
       color: #4F46BA; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         .benefits .item .title {
           margin: auto;
           line-height: 44px; } }
       .benefits .item .title.sm {
         display: none; }
-        @media (max-width: 1440px) {
+        @media (max-width: 1024px) {
           .benefits .item .title.sm {
             display: block; } }
-      .benefits .item .title.xl {
+      .benefits .item .title.xll {
         display: block; }
-        @media (max-width: 1440px) {
-          .benefits .item .title.xl {
+        @media (max-width: 1024px) {
+          .benefits .item .title.xll {
             display: none; } }
     .benefits .item .description {
       font-family: 'Montserrat';
@@ -1686,7 +1760,7 @@ section.course-page {
       text-align: center;
       letter-spacing: 0.1px;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         .benefits .item .description {
           font-size: 16px;
           line-height: 20px; } }
@@ -1694,7 +1768,7 @@ section.course-page {
 section.description {
   width: 90%;
   margin: 100px auto auto auto; }
-  @media (max-width: 1440px) {
+  @media (max-width: 1024px) {
     section.description {
       width: 81%;
       margin: auto; } }
@@ -1707,7 +1781,7 @@ section.description {
     /* identical to box height, or 67% */
     letter-spacing: 0.1px;
     color: #000000; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.description h2 {
         font-weight: 600;
         font-size: 26px;
@@ -1723,7 +1797,7 @@ section.description {
     /* or 150% */
     letter-spacing: 0.1px;
     color: #252B42; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.description ul {
         padding-left: 0; } }
   section.description .row {
@@ -1731,7 +1805,7 @@ section.description {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.description .row {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1747,7 +1821,7 @@ section.description {
       /* or 125% */
       letter-spacing: 0.1px;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         section.description .row h3 {
           width: 103%;
           font-weight: 600;
@@ -1755,7 +1829,7 @@ section.description {
           line-height: 60px; } }
     section.description .row ul {
       width: 80%; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         section.description .row ul {
           margin-top: 15px;
           width: 100%;
@@ -1765,7 +1839,7 @@ section.description {
   section.description .row2 {
     margin-top: 100px;
     margin-bottom: 200px; }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.description .row2 h2 {
         width: 116%;
         font-family: 'Montserrat';
@@ -1777,7 +1851,7 @@ section.description {
         margin-left: -20px;
         letter-spacing: 0.1px;
         color: #000000; } }
-    @media (max-width: 1440px) {
+    @media (max-width: 1024px) {
       section.description .row2 .row {
         width: 116%;
         margin-left: -20px; } }
@@ -1791,7 +1865,7 @@ section.description {
       /* or 128% */
       letter-spacing: 0.1px;
       color: #252B42; }
-      @media (max-width: 1440px) {
+      @media (max-width: 1024px) {
         section.description .row2 .row h3 {
           width: 100%;
           font-weight: 600;

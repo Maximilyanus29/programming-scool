@@ -8,7 +8,7 @@ section.questions{
     width: 1084px;
     // height: 177px;
 
-    @include media-xl{
+    @include media-md{
         margin-top: 92px;
 
         width: 100%;
@@ -21,13 +21,17 @@ section.questions{
 
     }
     
-    // @include media-lg{
-    //     display: grid;
-    //     grid-template-columns: repeat(2, 1fr);
-    //     // gap: 5%;
-    //     grid-column-gap: 10px;
-    //     grid-row-gap: 40px;
-    // }
+    @include media-xll{
+        margin-top: 92px;
+
+        width: 100%;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        // gap: 5%;
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+    }
 
 
     .item{
@@ -41,7 +45,7 @@ section.questions{
     
         }
         .question{
-            @include media-xl{
+            @include media-md{
                 font-size: 20px;
                 line-height: 14px;
             }
@@ -60,7 +64,7 @@ section.questions{
         }
         .answer{
 
-            @include media-xl{
+            @include media-md{
 
                 font-size: 16px;
                 line-height: 20px;

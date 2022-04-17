@@ -4,7 +4,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	@include media-xl{
+	@include media-sm{
 		margin: auto 10% auto 10%;
 	}
 
@@ -13,13 +13,13 @@ header{
 	nav{
 		display: flex;
 
-		@include media-xl{
+		@include media-sm{
 			width: 100%;
 			justify-content: space-between;
 		}
 
 		.menu-item{
-			@include media-xl{
+			@include media-sm{
 				margin-right: 7px;
 				font-size: 10px;
 
@@ -45,15 +45,15 @@ header{
 			color: #252B42;
 			margin-right: 40px;
 
-			@include media-xl{
+			@include media-sm{
 				margin-right: 70px;
 			}
-			@include media-lg{
+			@include media-sm{
 				margin-right: 10px;
             }
 			
 			.title img{
-				@include media-xl{
+				@include media-sm{
 					display: none;
 				}
 			}
@@ -100,7 +100,7 @@ header{
 			color: #FFFFFF;
 		}
 		
-		@include media-xl{
+		@include media-sm{
 			display: none;
 		}
 	}

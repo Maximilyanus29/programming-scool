@@ -1,7 +1,7 @@
 section.reviews{
     margin-top: 196px;
     position: relative;
-    @include media-xl{
+    @include media-sm{
         margin-top: 30px;
     }
     h2{
@@ -19,7 +19,7 @@ section.reviews{
         color: #252B42;
 
                 // height: 300px;
-                @include media-xl{
+                @include media-sm{
                    /* h2 */
                     width: 90%;
 
@@ -126,7 +126,7 @@ section.reviews{
 
 
         // height: 300px;
-        @include media-xl{
+        @include media-sm{
             margin-top: 30px;
         }
 
@@ -237,7 +237,7 @@ section.reviews{
     .ellipse2{
         /* Ellipse 11 */
 
-        @include media-xl{
+        @include media-sm{
             display: none;
          
         }

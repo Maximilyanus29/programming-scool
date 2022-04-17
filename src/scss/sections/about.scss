@@ -1,15 +1,15 @@
 section.about{
     margin-top: 140px;
-    @include media-xl{
+    @include media-md{
         margin-top: 50px;
     }
 
     h2{
 
-        @include media-lg{
+        @include media-md{
             font-size: 57px;
         }
-        @include media-xl{
+        @include media-md{
             font-size: 40px;
             line-height: 44px;
             text-align: left;
@@ -48,18 +48,89 @@ section.about{
 
         justify-content: space-between;
 
-        @include media-xl{
+
+        @include media-xll{
             flex-direction: column;
             .col1{
                 width: 100%;
+                display: flex;
+                .item{
+                    width: 50%;
+                }
+            }
+            .col2{
+                width: 100%;
+                display: flex;
+                .item{
+                    width: 50%;
+                }
+            }
+            .col3{
+                width: 100%;
+                display: flex;
+                .item{
+                    width: 50%;
+                }
+
+            }
+        }
+
+
+
+        @include media-md{
+            flex-direction: column;
+            .col1{
+                width: 100%;
+                display: flex;
+                .item{
+                    width: 50%;
+                }
+            }
+            .col2{
+                width: 100%;
+                display: flex;
+                .item{
+                    width: 50%;
+                }
+            }
+            .col3{
+                width: 100%;
+                display: flex;
+                .item{
+                    width: 50%;
+                }
+
+            }
+        }
+
+
+
+                
+        @include media-sm{
+            flex-direction: column;
+            .col1{
+                width: 100%;
+                display: block;
+                .item{
+                    width: 100%;
+                }
 
             }
             .col2{
                 width: 100%;
+                display: block;
+                .item{
+                    width: 100%;
+                }
 
             }
             .col3{
                 width: 100%;
+                display: block;
+                .item{
+                    width: 100%;
+                }
+
 
             }
         }
@@ -68,7 +139,7 @@ section.about{
 
         &.to_row{
             grid-template-columns: repeat(3, 1fr);
-            @include media-xl{
+            @include media-md{
                 grid-template-columns: repeat(1, 1fr);
                 gap: 25px;
 
@@ -82,14 +153,14 @@ section.about{
         display: flex;
         // grid-template-columns: repeat(3, 1fr);
         // // gap: 59px;
-        // @include media-lg{
+        // @include media-md{
         //     grid-template-columns: repeat(1, 1fr);
         // }
-        // @include media-xll{
+        // @include media-mdl{
         //     grid-template-columns: repeat(2, 1fr);
         // }
 
-        // @include media-xl{
+        // @include media-md{
         //     grid-template-columns: repeat(1, 1fr);
         //     gap: 2%;
             
@@ -100,7 +171,7 @@ section.about{
             // width: 26%;
                 margin-bottom: 40px;
 
-            @include media-xl{
+            @include media-md{
                 margin-left: 5%;
 
                 // height: auto;
@@ -125,7 +196,7 @@ section.about{
     
                 color: #4F46BA;
 
-                @include media-xl{
+                @include media-md{
                     font-size: 20px;
                     line-height: 16px;
                 }
@@ -137,14 +208,14 @@ section.about{
                 //     left: -45px;
                 //     content: url('../img/svg/coolicon (4).svg');
 
-                //     @include media-lg{
+                //     @include media-md{
                 //         content: "";
                 //     }
                 // }
             }
             .description{
 
-                @include media-xl{
+                @include media-md{
                     font-size: 12px;
                     line-height: 16px;
                 }

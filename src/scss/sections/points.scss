@@ -1,13 +1,13 @@
 section.points{
     margin-top: 180px;
-    @include media-xl{
+    @include media-sm{
         margin-top: 137px;
 
     }
     h2{
         width: 80%;
         margin: 0 auto;
-        @include media-xl{
+        @include media-sm{
 
             font-family: 'Montserrat';
             font-style: normal;
@@ -42,7 +42,14 @@ section.points{
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
 
-        @include media-xl{
+        @include media-md{
+            grid-template-columns: repeat(1, 1fr);
+            margin-top: 45px;
+            width: 95%;
+
+        }
+
+        @include media-sm{
             grid-template-columns: repeat(1, 1fr);
             margin-top: 45px;
             width: 95%;

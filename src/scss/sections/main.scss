@@ -3,10 +3,10 @@ section.main{
     margin-top: 60px;
     margin-bottom: 100px;
 
-    @include media-xl{
+    @include media-sm{
         margin-top: auto;
     }
-    @include media-xl{
+    @include media-sm{
         flex-direction: column;
     }
 
@@ -15,11 +15,11 @@ section.main{
     .text{
         width: 50%;
         
-        @include media-xl{
+        @include media-sm{
             width: 100%;
         }
         h1{
-            @include media-xl{
+            @include media-sm{
                 width: 100%;
                 font-family: 'Manrope';
                 font-style: normal;
@@ -65,7 +65,7 @@ section.main{
         font-size: 14px;
         line-height: 19px;
         text-align: center;
-        @include media-xl{
+        @include media-sm{
             display: none;
         }
 
@@ -73,12 +73,12 @@ section.main{
         img{
             margin-left: 35px;
         }
-        &.xl{
+        &.sm{
             margin-top: 40px;
             height: 56px;
             width: 100%;
             display: none;
-            @include media-xl{
+            @include media-sm{
                 display: block;
             }
         }
@@ -87,7 +87,7 @@ section.main{
         display: flex;
         align-items: center;
         width: 50%;
-        @include media-xl{
+        @include media-sm{
             width: 100%;
         }
     }
