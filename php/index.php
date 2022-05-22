@@ -1,4 +1,6 @@
 <?php 
+$title="Летние городские лагеря в центре Москвы";
+
 include "header.php"
 ?>
 
@@ -136,7 +138,7 @@ include "header.php"
 							<div class="text">м. Спортивная, Ленинский проспект</div>
 						</div>
 
-						<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
+						<p class="interval">06.06.-17.06</p>
 
 						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
@@ -178,7 +180,7 @@ include "header.php"
 								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Хамовники, Ленинский проспект, Шелепиха</div>
 							</div>
-							<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
+							<p class="interval">04.07-15.07, 01.08 – 12.08, 15.08 – 26.08</p>
 						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
@@ -199,7 +201,7 @@ include "header.php"
 								<div class="text">м Ленинский проспект, Шелепиха
 								</div>
 							</div>
-							<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
+							<p class="interval">20.06-01.07, 04.07-15.07</p>
 						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
@@ -219,7 +221,7 @@ include "header.php"
 								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Ленинский проспект</div>
 							</div>
-							<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
+							<p class="interval">18.07 – 29.07, 01.08 – 12.08</p>
 						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
@@ -238,7 +240,7 @@ include "header.php"
 								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Шелепиха</div>
 							</div>
-						<p class="interval">06.06-11.06</p>
+						<p class="interval">01.08-12.08</p>
 						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
@@ -258,7 +260,7 @@ include "header.php"
 								<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
 								<div class="text">м Шелепиха</div>
 							</div>
-					<p class="interval">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
+					<p class="interval">15.08-26.08</p>
 						<button class="open-modal">Узнать подробнее <img src="img/Vector.svg" alt=""></button>
 					</div>
 				</div>
@@ -533,7 +535,7 @@ include "header.php"
 					</div>
 					<div class="description">
 						<div class="name">Виктория Боровикова</div>
-						<div class="education">Директор по работе с клиентами Siemens MBA, The Open University</div>
+						<div class="education">Директор по работе с клиентами Siemens MBA.<br> The Open University</div>
 						<div class="profession">Основы бизнеса</div>
 					</div>
 				</div>

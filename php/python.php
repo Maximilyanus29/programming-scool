@@ -1,4 +1,6 @@
 <?php 
+$title="Программирование в Python и основы бизнеса";
+
 include "header.php"
 ?>
 

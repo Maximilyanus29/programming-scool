@@ -1,4 +1,6 @@
 <?php 
+$title="Рисование в стиле Аниме";
+
 include "header.php"
 ?>
 

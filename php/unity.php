@@ -1,4 +1,6 @@
 <?php 
+$title="Создание 3D игры в Unity + освоение космоса";
+
 include "header.php"
 ?>
 

@@ -1,4 +1,7 @@
 <?php 
+$title="Web-дизайн и основы бизнеса";
+
+
 include "header.php"
 ?>
 

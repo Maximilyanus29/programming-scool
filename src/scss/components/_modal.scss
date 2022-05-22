@@ -23,9 +23,15 @@
     width: 30%;
     transform: translate(-50%, -50%);
 	border-radius: 5px;
+	@include media-xll{
+		width: 50%;
+
+	}
 	@include media-sm{
 		width: 90%;
 	}
+
+
 	.img{
 		position: relative;
 		height: 230px;
@@ -43,13 +49,15 @@
 		}
 	}
 	.description{
-		height: auto;
+		height: 330px;
 		border-radius: 5px;
-		padding: 10px 30px 71px 30px;
+		// padding: 10px 30px 71px 30px;
 		background-color: #FFFFFF;
 
 		@include media-sm{
 			padding: 10px 30px 30px 30px;
+			height: 415px;
+
 		}
 		.question_title{
 			@include media-sm{

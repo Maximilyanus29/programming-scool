@@ -279,6 +279,9 @@ header {
   border-radius: 5px; }
   .modal.show {
     display: block; }
+  @media (max-width: 1024px) {
+    .modal {
+      width: 50%; } }
   @media (max-width: 480px) {
     .modal {
       width: 90%; } }
@@ -297,13 +300,13 @@ header {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; }
   .modal .description {
-    height: auto;
+    height: 330px;
     border-radius: 5px;
-    padding: 10px 30px 71px 30px;
     background-color: #FFFFFF; }
     @media (max-width: 480px) {
       .modal .description {
-        padding: 10px 30px 30px 30px; } }
+        padding: 10px 30px 30px 30px;
+        height: 415px; } }
     .modal .description .question_title {
       font-family: 'Manrope';
       font-style: normal;
@@ -782,6 +785,7 @@ section.assignments {
               flex-grow: 0; }
         section.assignments .card-wrap .card .content .title {
           /* h5 */
+          display: block;
           height: 48px;
           font-family: 'Montserrat';
           font-style: normal;
@@ -1354,7 +1358,7 @@ section.team {
       /* Inside auto layout */ }
       section.team .teachers .teacher .img {
         position: relative;
-        height: 260px; }
+        height: 240px; }
         @media (max-width: 480px) {
           section.team .teachers .teacher .img {
             height: 300px; } }

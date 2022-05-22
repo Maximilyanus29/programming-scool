@@ -1,4 +1,6 @@
 <?php 
+$title="Программирование в Minecraft и олимпиадная математика";
+
 include "header.php"
 ?>
 
@@ -8,12 +10,13 @@ include "header.php"
 				<div class="text">
 					<p class="age">7-9 лет</p>
 					<h1 class="title">Программирование в Minecraft<br> и олимпиадная математика</h1>
-					<p class="description">В результате занятий дети создадут командный проект в общем мире Minecraft.</p>
+					<p class="description"></p>
 					<div class="location">
 						<div class="img"><img src="img/coolicon (5).svg" alt=""></div>
-						<div class="text-location">м. Спортивная, Ленинский проспект</div>
+						<div class="text-location">м. Спортивная, ул. Хамовнический вал, 12, 
+м. Ленинский проспект, Ленинский проспект, 38А</div>
 					</div>
-					<p class="date">06.06-17.06, 06.06-17.06, 06.06-17.06, 06.06-17.06</p>
+					<p class="date">06.06.-17.06.22</p>
 					<button class="button open-modal">Записаться <img src="img/Vector 9.svg" alt=""></button>
 				</div>
 				<div class="img"><img src="img/photo2.jpg" alt=""></div>

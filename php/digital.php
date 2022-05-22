@@ -1,4 +1,6 @@
 <?php 
+$title="Digital art: рисование на графическом планшете";
+
 include "header.php"
 ?>
 

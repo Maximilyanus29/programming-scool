@@ -1,4 +1,6 @@
 <?php 
+$title="Программирование в Roblox и олимпиадная математика";
+
 include "header.php"
 ?>
 

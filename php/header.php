@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>123</title>
+	<title><?= $title ?></title>
 <script defer src="./js/vendors-node_modules_html-loader_dist_runtime_getUrl_js-node_modules_normalize_css_normalize_-abc2f4.js"></script><script defer src="./js/main.js"></script><link href="./css/vendors-node_modules_html-loader_dist_runtime_getUrl_js-node_modules_normalize_css_normalize_-abc2f4.css" rel="stylesheet"><link href="./css/main.css" rel="stylesheet"></head>
 <body>
 	<div class="overlay" id="overlay"></div>
